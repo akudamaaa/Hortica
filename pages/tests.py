@@ -5,10 +5,15 @@ from django.urls import reverse
 
 class PublicPagesTests(TestCase):
     def test_public_pages_render(self):
-        for name in ("home", "history", "crew", "voyages", "registration"):
+        for name in ("home", "history", "crew", "voyages", "archive", "registration"):
             with self.subTest(page=name):
                 response = self.client.get(reverse(name))
                 self.assertEqual(response.status_code, 200)
+
+    def test_photo_archive_uses_source_captions(self):
+        response = self.client.get(reverse("archive"))
+        self.assertContains(response, "Маяк Толбухин")
+        self.assertContains(response, "2010001sm.jpg")
 
     def test_public_navigation_does_not_link_to_admin(self):
         response = self.client.get(reverse("home"))
