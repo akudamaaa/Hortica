@@ -1,0 +1,26 @@
+{% extends "pages/base.html" %}
+{% block title %}Запись на выходы — яхта «Хортица»{% endblock %}
+{% block content %}
+<section class="page-hero"><p class="eyebrow">НА БОРТ / 04</p><h1>Первый шаг —<br><em>познакомиться.</em></h1><p>Форма ниже повторяет структуру примера Google Forms. В этой версии она не отправляет и не сохраняет данные.</p></section>
+<section class="registration-layout">
+  <div class="registration-copy paper-card">
+    <p class="eyebrow">ТЕКСТ ИЗ ФОРМЫ-ПРИМЕРА</p><h2>Запись на выходы на яхте «Хортица»</h2>
+    <p>Яхт-клуб СПбГМТУ и яхта «Хортица» приглашают на учебные выходы под парусом новичков, готовых изучать морское дело и попасть в наш экипаж.</p>
+    <p>В примере указаны сбор в 11 часов в Санкт-Петербургском речном яхт-клубе (Санкт-Петербург, Петровская коса, д. 9) и плавание примерно на 6–7 часов. Перед запуском формы эти детали нужно подтвердить.</p>
+    <p>Для записи в примере предлагается выбрать желаемую дату; ближе к выходу участникам отправляют подтверждение и инструкцию. В примере также просят открыть доступ к личным сообщениям.</p>
+    <div class="source-note">Контактные ссылки из примера не показываем до подтверждения, что они актуальны.</div>
+  </div>
+  <div class="form-card">
+    <div class="form-heading"><span>ЗАЯВКА / МАКЕТ</span><span class="form-step">01—06</span></div>
+    <p class="form-disclaimer">Это демонстрационный макет. Введённые данные никуда не отправляются и не сохраняются.</p>
+    <div class="form-field"><label for="name">Фамилия Имя Отчество <b>*</b></label><input id="name" type="text" autocomplete="off" placeholder="Как к вам обращаться"></div>
+    <div class="form-field"><label for="date">Предпочтительная дата выхода <b>*</b></label><select id="date"><option>Даты будут добавлены после подтверждения</option><option>Другой день</option></select><small>Старая форма содержит дату 25 октября 2026 года — она уже прошла.</small></div>
+    <div class="form-field"><label for="university">ВУЗ и группа <b>*</b></label><input id="university" type="text" autocomplete="off" placeholder="Например: название вуза и группа"></div>
+    <div class="form-field"><label for="vk">Ссылка на профиль ВК (для обратной связи) <b>*</b></label><input id="vk" type="url" autocomplete="off" placeholder="https://vk.com/..."></div>
+    <div class="form-field"><label for="contact">Другой способ связи <span>(не обязательно)</span></label><input id="contact" type="text" autocomplete="off" placeholder="По желанию"></div>
+    <fieldset class="form-field"><legend>Готовы ли вы участвовать в подготовке яхты к выходу и её уборке после? <b>*</b></legend><label class="radio-line"><input type="radio" name="help"> Да</label><label class="radio-line"><input type="radio" name="help"> Нет</label></fieldset>
+    <button class="button button-primary form-submit" type="button" disabled>Отправка пока отключена</button>
+    <p class="form-footnote">* обязательные вопросы в форме-примере</p>
+  </div>
+</section>
+{% endblock %}

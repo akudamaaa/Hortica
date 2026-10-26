@@ -1,0 +1,27 @@
+{% extends "pages/base.html" %}
+{% load static %}
+{% block title %}Архив походов яхты «Хортица»{% endblock %}
+{% block content %}
+<section class="page-hero"><p class="eyebrow">МАРШРУТЫ / 03</p><h1>Следы на<br><em>карте.</em></h1><p>Выборка архивных походов со старого сайта. Эти записи относятся к прошлым годам и не являются расписанием будущих выходов.</p></section>
+<section class="voyage-gallery">
+  <figure class="photo-card"><img src="{% static 'archive/2006001sm.jpg' %}" alt="Архивная фотография из раздела походов, файл 2006001sm.jpg"><figcaption>Архив / 2006</figcaption></figure>
+  <figure class="photo-card"><img src="{% static 'archive/2009001sm.jpg' %}" alt="Архивная фотография из раздела походов, файл 2009001sm.jpg"><figcaption>Архив / 2009</figcaption></figure>
+  <figure class="photo-card"><img src="{% static 'archive/2010055sm.jpg' %}" alt="Архивная фотография из раздела походов, файл 2010055sm.jpg"><figcaption>Архив / 2010</figcaption></figure>
+</section>
+<section class="archive-section">
+  <div class="archive-heading"><div><p class="eyebrow">АРХИВ ИСХОДНОГО САЙТА</p><h2>Выборка маршрутов</h2></div><span class="archive-range">1984 — 2010</span></div>
+  <div class="route-list">
+    <article class="route-item"><strong>2010</strong><p>СПб — Котка — Хельсинки — Дальсбург — Ханко — Хельсинки — Котка — СПб</p><span>Поход по финским шхерам; в записи также указан заводской ремонт.</span></article>
+    <article class="route-item"><strong>2009</strong><p>СПб — Хельсинки — Висби — Кальмар — Карлскруна — Росток — Любек — Карлскруна — Ханко — Хельсинки — Котка — СПб</p><span>В архиве упомянут фестиваль Hansa Sail в Ростоке.</span></article>
+    <article class="route-item"><strong>2008</strong><p>СПб — Таллин — о. Саремаа — Рига — Висби — Нюнесхамн — Стокгольм — Мариенхамн — Хельсинки — СПб</p><span>Маршрут приведён по архивной таблице.</span></article>
+    <article class="route-item"><strong>2007</strong><p>СПб — Хельсинки — Ханко — Стокгольм — Нюнесхамн — гавань Мэм — Гетаканал — Ханко — Хельсинки — Котка — СПб</p><span>Маршрут приведён по архивной таблице.</span></article>
+    <article class="route-item"><strong>2006</strong><p>СПб — Котка — Хельсинки — Ханко — Турку — о. Юрмо — Мариенхамн — Стокгольм — Ханко — Котка — СПб</p><span>Маршрут приведён по архивной таблице.</span></article>
+    <article class="route-item"><strong>2001</strong><p>Поход по шхерам Балтики вместе с яхтой «Ника»; в архиве маршрут назван 1000-мильным.</p><span>СПб — Хамина — Котка — Хельсинки — Ханко — Мариенхамн — Стокгольм — Сольтшебаден — Мариенхамн — Хельсинки — Котка — Хамина — СПб</span></article>
+    <article class="route-item"><strong>1997</strong><p>Дружественный визит, приуроченный к 250-летию шведской церкви в Хиетаниеми.</p><span>СПб — Хельсинки — Ханко — Турку — Васа — Умеа-Хапаранда — Ерншольдсвик — Хамина — СПб</span></article>
+    <article class="route-item"><strong>1990</strong><p>Регата «За экологию, культуру и мир».</p><span>Ленинград — Таллинн — Вентспилс — Клайпеда — Гданск — Штральзунд — Варнемюнде — Любек — Киль — Леба — Висбю — Мариенхамн — Ханко — Ленинград</span></article>
+    <article class="route-item"><strong>1988</strong><p>Кубок Балтики.</p><span>Ленинград — Таллин — Вентспилс — Рига — Калининград — Клайпеда — Ромассааре — Пярну — Таллин — Выборг — Гогланд — Ленинград</span></article>
+    <article class="route-item"><strong>1984</strong><p>Ленинград — Петрокрепость — бухта Моторная — о. Валаам — Питкяранта — Приозерск — Петрокрепость — Ленинград</p><span>Маршрут приведён по архивной таблице.</span></article>
+  </div>
+  <p class="source-note">На старом сайте есть и другие записи за 1985–2010 годы. Это первая выборка, её можно расширить после сверки полного архива.</p>
+</section>
+{% endblock %}
