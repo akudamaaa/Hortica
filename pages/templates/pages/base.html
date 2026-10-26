@@ -1,37 +1,50 @@
 {% load static %}
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ru">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#101b27">
+  <meta name="theme-color" content="#102b3a">
   <title>{% block title %}Яхта «Хортица»{% endblock %}</title>
   <link rel="stylesheet" href="{% static 'pages/site.css' %}">
+  <script src="{% static 'pages/site.js' %}" defer></script>
 </head>
 <body>
-  <div class="site-shell">
+  <a class="skip-link" href="#main-content">К содержанию</a>
+  <div class="site-frame">
     <header class="site-header">
       <a class="brand" href="{% url 'home' %}" aria-label="Яхта Хортица — главная">
-        <span class="brand-mark" aria-hidden="true">✦</span>
-        <span><strong>ХОРТИЦА</strong><small>яхта · Санкт-Петербург</small></span>
+        <span class="brand-mark" aria-hidden="true">Х</span>
+        <span class="brand-copy"><strong>ХОРТИЦА</strong><small>парусная яхта · Санкт-Петербург</small></span>
       </a>
       <nav class="main-nav" aria-label="Основная навигация">
-        <a href="{% url 'home' %}">Старт</a>
+        <a href="{% url 'project' %}">О проекте</a>
         <a href="{% url 'history' %}">История</a>
         <a href="{% url 'crew' %}">Экипаж</a>
         <a href="{% url 'voyages' %}">Походы</a>
-        <a href="{% url 'archive' %}">Архив фото</a>
-        <a class="nav-cta" href="{% url 'registration' %}">На борт ↗</a>
+        <a href="{% url 'coordinates' %}">Координаты</a>
       </nav>
+      <a class="register-link" href="{% url 'registration' %}">Регистрация <span aria-hidden="true">↗</span></a>
     </header>
-    <main id="main-content">
+    <main id="main-content" tabindex="-1">
       {% block content %}{% endblock %}
     </main>
     <footer class="site-footer">
-      <span>ХОРТИЦА / ПАРУСНЫЙ АРХИВ</span>
-      <span>Санкт-Петербург · проект некоммерческий</span>
-      <a href="{% url 'registration' %}">Хочу узнать больше ↗</a>
+      <a class="footer-brand" href="{% url 'home' %}">ХОРТИЦА <span>·</span> ПАРУСНЫЙ АРХИВ</a>
+      <nav aria-label="Навигация внизу страницы">
+        <a href="{% url 'project' %}">Проект</a>
+        <a href="{% url 'history' %}">История</a>
+        <a href="{% url 'voyages' %}">Походы</a>
+      </nav>
+      <a class="footer-registration" href="{% url 'registration' %}">На борт ↗</a>
     </footer>
   </div>
+  <dialog class="photo-dialog" aria-label="Просмотр фотографии">
+    <button class="photo-close" type="button" aria-label="Закрыть фотографию">×</button>
+    <button class="photo-step photo-previous" type="button" aria-label="Предыдущая фотография">←</button>
+    <figure><img alt=""><figcaption></figcaption></figure>
+    <button class="photo-step photo-next" type="button" aria-label="Следующая фотография">→</button>
+    <output class="photo-counter" aria-live="polite"></output>
+  </dialog>
 </body>
 </html>

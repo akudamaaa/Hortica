@@ -1,0 +1,120 @@
+{% extends "pages/base.html" %}
+{% load static %}
+{% block title %}{% if is_home %}{{ page.blocks.0.text }} — яхта «Хортица»{% else %}{{ page.title }} — яхта «Хортица»{% endif %}{% endblock %}
+{% block content %}
+{% if is_home %}
+  <section class="home-hero" id="top">
+    <div class="home-copy">
+      <p class="eyebrow">ПАРУСНАЯ ЯХТА · САНКТ-ПЕТЕРБУРГ</p>
+      <h1>{{ page.blocks.0.text }}</h1>
+      <p class="home-lead">{{ page.blocks.1.text }}</p>
+      <div class="hero-actions">
+        <a class="button button-primary" href="{% url 'registration' %}">Регистрация <span aria-hidden="true">↗</span></a>
+        <a class="text-link" href="{% url 'project' %}">О проекте <span aria-hidden="true">→</span></a>
+      </div>
+      {% if page.hero_image %}<p class="photo-credit">{{ page.hero_image.caption }}</p>{% endif %}
+    </div>
+    {% if page.hero_image %}
+      <figure class="hero-photo">
+        <a href="{% static page.hero_image.full %}" data-photo data-caption="{{ page.hero_image.caption }}">
+          <img src="{% static page.hero_image.src %}" alt="{{ page.hero_image.caption }}" fetchpriority="high">
+        </a>
+        <figcaption>{{ page.hero_image.caption }}</figcaption>
+      </figure>
+    {% endif %}
+  </section>
+  <section class="home-sections" aria-label="Разделы сайта">
+    <p class="eyebrow">РАЗДЕЛЫ</p>
+    <div class="section-links">
+      <a href="{% url 'project' %}"><span>01</span><strong>О проекте</strong><b aria-hidden="true">↗</b></a>
+      <a href="{% url 'history' %}"><span>02</span><strong>История</strong><b aria-hidden="true">↗</b></a>
+      <a href="{% url 'crew' %}"><span>03</span><strong>Экипаж</strong><b aria-hidden="true">↗</b></a>
+      <a href="{% url 'voyages' %}"><span>04</span><strong>Походы</strong><b aria-hidden="true">↗</b></a>
+      <a href="{% url 'coordinates' %}"><span>05</span><strong>Координаты</strong><b aria-hidden="true">↗</b></a>
+    </div>
+  </section>
+{% else %}
+  <header class="page-heading" id="top">
+    {% if is_voyage %}<p class="eyebrow">АРХИВ ПОХОДОВ</p>{% elif is_track %}<p class="eyebrow">АРХИВ ПОХОДОВ</p>{% elif is_coordinates %}<p class="eyebrow">КАК НАС НАЙТИ</p>{% else %}<p class="eyebrow">ЯХТА «ХОРТИЦА»</p>{% endif %}
+    <h1>{{ page.title }}</h1>
+    {% if is_voyage %}<a class="back-link" href="{% url 'voyages' %}">← К списку походов</a>{% endif %}
+  </header>
+  {% if page.source_note %}
+    <aside class="editorial-note"><strong>Подтверждённая дата:</strong> в 1960 году яхта сошла на воду и совершила первый поход. Исторические тексты ниже перенесены дословно; встречающееся в них другое указание года оставлено как в источнике.</aside>
+  {% endif %}
+
+  {% if is_track %}
+    <section class="routes-section" aria-labelledby="route-heading">
+      <div class="section-heading"><div><p class="eyebrow">МАРШРУТЫ И ЛЕТОПИСЬ</p><h2 id="route-heading">Список походов</h2></div><div class="section-tools"><a class="text-link" href="#photo-archive">Все фотографии ↓</a><span class="route-count">{{ page.route_rows|length }} записей</span></div></div>
+      <div class="table-scroll">
+        <table class="route-table">
+          <thead><tr><th scope="col">Год</th><th scope="col">Поход / событие</th><th scope="col">Маршрут</th><th scope="col">Капитан</th></tr></thead>
+          <tbody>
+            {% for route in page.route_rows %}
+              <tr>
+                <th scope="row">{% if route.url %}<a href="{{ route.url }}">{{ route.year }}</a>{% else %}{{ route.year }}{% endif %}</th>
+                <td>
+                  {% if route.image and route.url %}<a class="route-photo" href="{{ route.url }}" data-photo-cycle="{% for source in route.photo_candidates %}{% static source %}{% if not forloop.last %}|{% endif %}{% endfor %}" aria-label="Открыть страницу похода {{ route.year }}"><img src="{% static route.image.src %}" alt="Фотография для похода {{ route.year }}" loading="lazy"></a>{% elif route.image %}<span class="route-photo"><img src="{% static route.image.src %}" alt="Фотография из архива походов" loading="lazy"></span>{% endif %}
+                  {{ route.note }}
+                </td>
+                <td>{% if route.url %}<a href="{{ route.url }}">{{ route.route }}</a>{% else %}{{ route.route }}{% endif %}</td>
+                <td>{{ route.captain }}</td>
+              </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
+    </section>
+    <section class="photo-archive" id="photo-archive" aria-labelledby="photos-heading">
+      <div class="section-heading"><div><p class="eyebrow">ФОТОГРАФИИ СО ВСЕХ СТРАНИЦ ИСТОЧНИКА</p><h2 id="photos-heading">Фотоархив</h2></div><span class="route-count">{{ page.archive_images|length }} снимков</span></div>
+      <div class="photo-grid">
+        {% for image in page.archive_images %}
+          <figure class="photo-card">
+            <a href="{% static image.full %}" data-photo data-photo-group="photo-archive" data-caption="{{ image.caption }}">
+              <img src="{% static image.src %}" alt="{% if image.caption %}{{ image.caption }}{% else %}Фотография без подписи в источнике{% endif %}" loading="lazy">
+            </a>
+            <figcaption>{% if image.caption %}{{ image.caption }}{% else %}<span class="no-caption">Подпись на исходном сайте отсутствует</span>{% endif %}<span class="photo-origin">{{ image.source_title }}</span></figcaption>
+          </figure>
+        {% endfor %}
+      </div>
+    </section>
+  {% else %}
+    <article class="source-article">
+      {% for group in page.article_groups %}
+        {% if group.profile %}<div class="profile-text" data-profile-target="{{ group.profile }}">{% endif %}
+        {% for block in group.blocks %}
+          {% for anchor in block.anchors %}<span class="named-anchor" id="{{ anchor }}"></span>{% endfor %}
+          {% if block.type == "heading" %}<h2>{% else %}<p>{% endif %}
+            {% if block.parts %}
+              {% for part in block.parts %}
+                {% if part.type == "link" and part.resolved_href %}<a href="{{ part.resolved_href }}"{% if part.resolved_href|slice:":4" == "http" %} rel="noopener noreferrer"{% endif %}{% if part.title %} title="{{ part.title }}"{% endif %}>{{ part.text }}</a>{% else %}{{ part.text }}{% endif %}
+              {% endfor %}
+            {% else %}{{ block.text }}{% endif %}
+          {% if block.type == "heading" %}</h2>{% else %}</p>{% endif %}
+        {% endfor %}
+        {% if group.profile %}</div>{% endif %}
+      {% endfor %}
+    </article>
+  {% endif %}
+
+  {% if page.related_links %}
+    <nav class="related-links" aria-label="Связанные материалы">
+      {% for link in page.related_links %}<a href="{{ link.href }}"{% if link.title %} title="{{ link.title }}"{% endif %}>{{ link.label }} <span aria-hidden="true">↗</span></a>{% endfor %}
+    </nav>
+  {% endif %}
+
+  {% if page.images and not is_track %}
+    <section class="photo-archive" aria-labelledby="photos-heading">
+      <div class="section-heading"><div><p class="eyebrow">ФОТОГРАФИИ ИЗ ИСТОЧНИКА</p><h2 id="photos-heading">Архив страницы</h2></div><span class="route-count">{{ page.images|length }} снимков</span></div>
+      <div class="photo-grid">
+        {% for image in page.images %}
+          <figure class="photo-card">
+            <a href="{% static image.full %}" data-photo data-photo-group="{{ page.key }}" data-caption="{{ image.caption }}"{% if image.photo_cycle %} data-photo-cycle="{% for source in image.photo_cycle %}{{ source }}{% if not forloop.last %}|{% endif %}{% endfor %}"{% endif %}{% if image.profile_key %} class="profile-photo" data-profile-key="{{ image.profile_key }}" data-profile-base="{{ image.profile_base }}" data-profile-variants="{% for source in image.profile_variants %}{{ source }}{% if not forloop.last %}|{% endif %}{% endfor %}"{% endif %}><img src="{% static image.src %}" alt="{% if image.caption %}{{ image.caption }}{% else %}Фотография без подписи в источнике{% endif %}" loading="lazy"></a>
+            <figcaption>{% if image.caption %}{{ image.caption }}{% else %}<span class="no-caption">Подпись на исходном сайте отсутствует</span>{% endif %}</figcaption>
+          </figure>
+        {% endfor %}
+      </div>
+    </section>
+  {% endif %}
+{% endif %}
+{% endblock %}

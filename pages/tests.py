@@ -2,18 +2,42 @@ from django.test import TestCase
 from django.contrib.auth import get_user_model
 from django.urls import reverse
 
+from .views import legacy_pages
+
 
 class PublicPagesTests(TestCase):
-    def test_public_pages_render(self):
-        for name in ("home", "history", "crew", "voyages", "archive", "registration"):
+    def test_all_source_pages_and_additions_render(self):
+        for name in (
+            "home", "project", "history", "crew", "voyages", "coordinates", "oldspice",
+            "voyage-2006", "voyage-2007", "voyage-2009", "voyage-2010", "registration",
+        ):
             with self.subTest(page=name):
                 response = self.client.get(reverse(name))
                 self.assertEqual(response.status_code, 200)
 
-    def test_photo_archive_uses_source_captions(self):
+    def test_original_voyage_list_keeps_all_route_rows(self):
+        response = self.client.get(reverse("voyages"))
+        self.assertContains(response, "32 записей")
+        self.assertContains(response, "1984")
+        self.assertContains(response, "2009047sm.jpg")
+
+    def test_story_gallery_uses_original_photo_and_caption(self):
+        response = self.client.get(reverse("voyage-2006"))
+        self.assertContains(response, "2006001sm.jpg")
+        self.assertContains(response, "2006001.jpg")
+        source_caption = next(image["caption"] for image in legacy_pages()["2006"]["images"] if image["caption"])
+        self.assertContains(response, source_caption)
+
+    def test_old_archive_alias_opens_complete_photo_archive(self):
         response = self.client.get(reverse("archive"))
-        self.assertContains(response, "Маяк Толбухин")
-        self.assertContains(response, "2010001sm.jpg")
+        self.assertRedirects(response, f"{reverse('voyages')}#photo-archive", fetch_redirect_response=False)
+
+    def test_photo_archive_collects_all_source_images(self):
+        response = self.client.get(reverse("voyages"))
+        self.assertContains(response, 'id="photo-archive"')
+        self.assertContains(response, "Фотоархив")
+        self.assertContains(response, "295 снимков")
+        self.assertContains(response, "old001sm.jpg")
 
     def test_public_navigation_does_not_link_to_admin(self):
         response = self.client.get(reverse("home"))
