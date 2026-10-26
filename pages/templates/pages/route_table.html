@@ -1,0 +1,22 @@
+{% load static %}
+<section class="routes-section" aria-labelledby="route-heading">
+  <div class="section-heading"><div><p class="pixel-label">МАРШРУТЫ И ЛЕТОПИСЬ</p><h2 id="route-heading">Список походов</h2></div><div class="section-tools"><a class="pixel-link" href="#photo-archive">К фотоархиву ↓</a><span class="route-count">{{ page.route_rows|length }} записей</span></div></div>
+  <div class="table-scroll">
+    <table class="route-table">
+      <thead><tr><th scope="col">Год</th><th scope="col">Поход / событие</th><th scope="col">Маршрут</th><th scope="col">Капитан</th></tr></thead>
+      <tbody>
+        {% for route in page.route_rows %}
+          <tr>
+            <th scope="row">{% if route.url %}<a href="{{ route.url }}">{{ route.year }}</a>{% else %}{{ route.year }}{% endif %}</th>
+            <td>
+              {% if route.image and route.url %}<a class="route-photo" href="{{ route.url }}" data-photo-cycle="{% for source in route.photo_candidates %}{% static source %}{% if not forloop.last %}|{% endif %}{% endfor %}" aria-label="Открыть страницу похода {{ route.year }}"><img src="{% static route.image.src %}" alt="Фотография для похода {{ route.year }}" loading="lazy"></a>{% elif route.image %}<span class="route-photo"><img src="{% static route.image.src %}" alt="Фотография из архива походов" loading="lazy"></span>{% endif %}
+              {{ route.note }}
+            </td>
+            <td>{% if route.url %}<a href="{{ route.url }}">{{ route.route }}</a>{% else %}{{ route.route }}{% endif %}</td>
+            <td>{{ route.captain }}</td>
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</section>

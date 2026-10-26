@@ -169,11 +169,11 @@
       },
       {
         "type": "paragraph",
-        "text": "Яхта спроектирована и построена студентами Ленинградского Кораблестроительного Института (ЛКИ ныне СПбГМТУ). Строительство продолжалось около 4 лет и спуск на воду осуществлен в 1961 году. Сейчас кажется невероятным, что горстка студентов, опираясь только на собственный энтузиазм, смогла осуществить такой проект, но то были другие времена и ценности у людей были другие. Время огромных строек и великих надежд. Хортица несет в себе не просто технологию и приемы судостроения тех лет, в ней сохранены дух и настроение эпохи. Сейчас яхту с полным правом можно отнести к разряду исторических судов, ее не стоит оценивать, сравнивая с современными лодками, она уступит им и по скорости и по комфорту. Хортица - это не выжатая гоночная машина, не блестящий роскошью белый дорогой катер для летних катаний, это старый парусник с огромной историей.",
+        "text": "Яхта спроектирована и построена студентами Ленинградского Кораблестроительного Института (ЛКИ ныне СПбГМТУ). Строительство продолжалось около 4 лет. Яхта сошла на воду в 1960 году и в том же году совершила первый поход. Сейчас кажется невероятным, что горстка студентов, опираясь только на собственный энтузиазм, смогла осуществить такой проект, но то были другие времена и ценности у людей были другие. Время огромных строек и великих надежд. Хортица несет в себе не просто технологию и приемы судостроения тех лет, в ней сохранены дух и настроение эпохи. Сейчас яхту с полным правом можно отнести к разряду исторических судов, ее не стоит оценивать, сравнивая с современными лодками, она уступит им и по скорости и по комфорту. Хортица - это не выжатая гоночная машина, не блестящий роскошью белый дорогой катер для летних катаний, это старый парусник с огромной историей.",
         "parts": [
           {
             "type": "text",
-            "text": "Яхта спроектирована и построена студентами Ленинградского Кораблестроительного Института (ЛКИ ныне СПбГМТУ). Строительство продолжалось около 4 лет и спуск на воду осуществлен в 1961 году. Сейчас кажется невероятным, что горстка студентов, опираясь только на собственный энтузиазм, смогла осуществить такой проект, но то были другие времена и ценности у людей были другие. Время огромных строек и великих надежд. Хортица несет в себе не просто технологию и приемы судостроения тех лет, в ней сохранены дух и настроение эпохи. Сейчас яхту с полным правом можно отнести к разряду исторических судов, ее не стоит оценивать, сравнивая с современными лодками, она уступит им и по скорости и по комфорту. Хортица - это не выжатая гоночная машина, не блестящий роскошью белый дорогой катер для летних катаний, это старый парусник с огромной историей."
+            "text": "Яхта спроектирована и построена студентами Ленинградского Кораблестроительного Института (ЛКИ ныне СПбГМТУ). Строительство продолжалось около 4 лет. Яхта сошла на воду в 1960 году и в том же году совершила первый поход. Сейчас кажется невероятным, что горстка студентов, опираясь только на собственный энтузиазм, смогла осуществить такой проект, но то были другие времена и ценности у людей были другие. Время огромных строек и великих надежд. Хортица несет в себе не просто технологию и приемы судостроения тех лет, в ней сохранены дух и настроение эпохи. Сейчас яхту с полным правом можно отнести к разряду исторических судов, ее не стоит оценивать, сравнивая с современными лодками, она уступит им и по скорости и по комфорту. Хортица - это не выжатая гоночная машина, не блестящий роскошью белый дорогой катер для летних катаний, это старый парусник с огромной историей."
           }
         ],
         "anchors": []
@@ -298,6 +298,15 @@
     "title": "История",
     "blocks": [
       {
+        "type": "image",
+        "alt": "Создание Хортицы",
+        "title": "",
+        "anchors": [],
+        "src": "legacy/yard.jpg",
+        "full": "legacy/yard.jpg",
+        "caption": "Создание Хортицы"
+      },
+      {
         "type": "heading",
         "text": "История Хортицы",
         "parts": [
@@ -414,6 +423,15 @@
           }
         ],
         "anchors": []
+      },
+      {
+        "type": "image",
+        "alt": "яхта Хортица",
+        "title": "",
+        "anchors": [],
+        "src": "legacy/kiya1.jpg",
+        "full": "legacy/kiya1.jpg",
+        "caption": "яхта Хортица"
       },
       {
         "type": "paragraph",
@@ -548,6 +566,15 @@
         "anchors": []
       },
       {
+        "type": "image",
+        "alt": "помещения Хортицы",
+        "title": "",
+        "anchors": [],
+        "src": "legacy/kiya2.jpg",
+        "full": "legacy/kiya2.jpg",
+        "caption": "помещения Хортицы"
+      },
+      {
         "type": "paragraph",
         "text": "1 – койка; 2 – выдвижная койка-диван; 3 – рундук-койка; 4 – подвесная койка; 5 – парусный ларь; 6 – провизионный ларь; 7 – шкаф для посуды; 8 – камбузный стол; 9 – газовая плита; 10 – мойка; 11 – платяной шкаф; 12 – буфет; 13 – бюро; 14 – книжный шкаф; 15 – шкаф; 16 – шкаф для непромокаемой одежды; 17 – складной стол; 18 – шкаф для карт; 19 – штурманский стол; 20 – питьевой танк, 500 л; 21 – двигатель М51-Г; I - форпик; II - кубрик; III - камбуз; IV - санузел; V - кают-компания; VI - четырехместная каюта; VII - штурманская рубка; VIII - кокпит; IX – машинное отделение; X - ахтерпик",
         "parts": [
@@ -571,11 +598,31 @@
       },
       {
         "type": "paragraph",
-        "text": "Сборка корпуса яхты производилась в стапель-кондукторе, состоящем из 12 поперечных лекал, установленных через 3-4 шпации. Листы наружной обшивки и шпангоуты были предварительно согнуты по каркасам и шаблонам. Монтаж наружной обшивки начинался с закладки листов килевого пояса. После сборки наружной обшивки, в килевую коробку устанавливались флоры, монтировались шпангоуты и поперечные переборки. Монтаж набора палубы начинался с установки рамных бимсов и карленгсов. Обычные бимсы укладывались в вырезы карленгсов, а на бортах закреплялись бимсовыми кницами на шпангоутах. Корпус яхты изолирован листовым экспанзитом толщиной 20 мм. Подволок и борта зашиты декоративной фанерой. Деревянные койки и шкафы отделаны шпоном ценных пород дерева. Для увеличения свободной площади, диваны и нижние койки сделаны раздвижными, а стол в кают-компании – складным. Штурманский стол, расположенный над спальной каютой в носовой части штурманской рубки, не занимает площади жилой палубы. Большие стекла в рубке, световые люки над кают-компанией, жилой каютой и камбузом в сочетании со светлыми тонами внутренней отделки обеспечивают хорошую освещенность.",
+        "text": "Сборка корпуса яхты производилась в стапель-кондукторе, состоящем из 12 поперечных лекал, установленных через 3-4 шпации. Листы наружной обшивки и шпангоуты были предварительно согнуты по каркасам и шаблонам. Монтаж наружной обшивки начинался с закладки листов килевого пояса.",
         "parts": [
           {
             "type": "text",
-            "text": "Сборка корпуса яхты производилась в стапель-кондукторе, состоящем из 12 поперечных лекал, установленных через 3-4 шпации. Листы наружной обшивки и шпангоуты были предварительно согнуты по каркасам и шаблонам. Монтаж наружной обшивки начинался с закладки листов килевого пояса.  После сборки наружной обшивки, в килевую коробку устанавливались флоры, монтировались шпангоуты и поперечные переборки. Монтаж набора палубы начинался с установки рамных бимсов и карленгсов. Обычные бимсы укладывались в вырезы карленгсов, а на бортах закреплялись бимсовыми кницами на шпангоутах. Корпус яхты изолирован листовым экспанзитом толщиной 20 мм. Подволок и борта зашиты декоративной фанерой. Деревянные койки и шкафы отделаны шпоном ценных пород дерева. Для увеличения свободной площади, диваны и нижние койки сделаны раздвижными, а стол в кают-компании – складным. Штурманский стол, расположенный над спальной каютой в носовой части штурманской рубки, не занимает площади жилой палубы. Большие стекла в рубке, световые люки над кают-компанией, жилой каютой и камбузом в сочетании со светлыми тонами внутренней отделки обеспечивают хорошую освещенность."
+            "text": "Сборка корпуса яхты производилась в стапель-кондукторе, состоящем из 12 поперечных лекал, установленных через 3-4 шпации. Листы наружной обшивки и шпангоуты были предварительно согнуты по каркасам и шаблонам. Монтаж наружной обшивки начинался с закладки листов килевого пояса."
+          }
+        ],
+        "anchors": []
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "src": "legacy/stapel.jpg",
+        "full": "legacy/stapel.jpg",
+        "caption": ""
+      },
+      {
+        "type": "paragraph",
+        "text": "После сборки наружной обшивки, в килевую коробку устанавливались флоры, монтировались шпангоуты и поперечные переборки. Монтаж набора палубы начинался с установки рамных бимсов и карленгсов. Обычные бимсы укладывались в вырезы карленгсов, а на бортах закреплялись бимсовыми кницами на шпангоутах. Корпус яхты изолирован листовым экспанзитом толщиной 20 мм. Подволок и борта зашиты декоративной фанерой. Деревянные койки и шкафы отделаны шпоном ценных пород дерева. Для увеличения свободной площади, диваны и нижние койки сделаны раздвижными, а стол в кают-компании – складным. Штурманский стол, расположенный над спальной каютой в носовой части штурманской рубки, не занимает площади жилой палубы. Большие стекла в рубке, световые люки над кают-компанией, жилой каютой и камбузом в сочетании со светлыми тонами внутренней отделки обеспечивают хорошую освещенность.",
+        "parts": [
+          {
+            "type": "text",
+            "text": "После сборки наружной обшивки, в килевую коробку устанавливались флоры, монтировались шпангоуты и поперечные переборки. Монтаж набора палубы начинался с установки рамных бимсов и карленгсов. Обычные бимсы укладывались в вырезы карленгсов, а на бортах закреплялись бимсовыми кницами на шпангоутах. Корпус яхты изолирован листовым экспанзитом толщиной 20 мм. Подволок и борта зашиты декоративной фанерой. Деревянные койки и шкафы отделаны шпоном ценных пород дерева. Для увеличения свободной площади, диваны и нижние койки сделаны раздвижными, а стол в кают-компании – складным. Штурманский стол, расположенный над спальной каютой в носовой части штурманской рубки, не занимает площади жилой палубы. Большие стекла в рубке, световые люки над кают-компанией, жилой каютой и камбузом в сочетании со светлыми тонами внутренней отделки обеспечивают хорошую освещенность."
           }
         ],
         "anchors": []
@@ -594,6 +641,17 @@
         "anchors": []
       },
       {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [
+          "2"
+        ],
+        "src": "legacy/vvv.jpg",
+        "full": "legacy/vvv.jpg",
+        "caption": ""
+      },
+      {
         "type": "paragraph",
         "text": "Лучшая статья, рассказывающая о создании \"Хортицы\" словами непосредственного участника Вадима Викторовича Волостных.",
         "parts": [
@@ -602,9 +660,7 @@
             "text": "Лучшая статья, рассказывающая о создании \"Хортицы\" словами непосредственного участника Вадима Викторовича Волостных."
           }
         ],
-        "anchors": [
-          "2"
-        ]
+        "anchors": []
       },
       {
         "type": "heading",
@@ -2487,6 +2543,42 @@
     "title": "Походы",
     "blocks": [
       {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "src": "legacy/foto/2006001sm.jpg",
+        "full": "legacy/foto/2006001sm.jpg",
+        "caption": ""
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "src": "legacy/foto/2007001sm.jpg",
+        "full": "legacy/foto/2007001sm.jpg",
+        "caption": ""
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "src": "legacy/foto/2009001sm.jpg",
+        "full": "legacy/foto/2009001sm.jpg",
+        "caption": ""
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "src": "legacy/foto/2010055sm.jpg",
+        "full": "legacy/foto/2010055sm.jpg",
+        "caption": ""
+      },
+      {
         "type": "heading",
         "text": "Походы",
         "parts": [
@@ -2508,6 +2600,10 @@
             "text": "Загрузить подробную карту (около 3.2Мб)"
           }
         ],
+        "anchors": []
+      },
+      {
+        "type": "route_table",
         "anchors": []
       }
     ],
@@ -3013,6 +3109,16 @@
           }
         ],
         "anchors": []
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "map.jpg",
+        "src": "legacy/linkmap.jpg",
+        "full": "legacy/map.jpg",
+        "caption": "Схема прохода к яхте"
       }
     ],
     "images": [
@@ -3127,6 +3233,406 @@
         "anchors": []
       },
       {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/old001.jpg",
+        "src": "legacy/foto/old001sm.jpg",
+        "full": "legacy/foto/old001.jpg",
+        "caption": "???"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/old005.jpg",
+        "src": "legacy/foto/old005sm.jpg",
+        "full": "legacy/foto/old005.jpg",
+        "caption": "???"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/old006.jpg",
+        "src": "legacy/foto/old006sm.jpg",
+        "full": "legacy/foto/old006.jpg",
+        "caption": "???"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/old007.jpg",
+        "src": "legacy/foto/old007sm.jpg",
+        "full": "legacy/foto/old007.jpg",
+        "caption": "???"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/old008.jpg",
+        "src": "legacy/foto/old008sm.jpg",
+        "full": "legacy/foto/old008.jpg",
+        "caption": "???"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/old016.jpg",
+        "src": "legacy/foto/old016sm.jpg",
+        "full": "legacy/foto/old016.jpg",
+        "caption": "???"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/old002.jpg",
+        "src": "legacy/foto/old002sm.jpg",
+        "full": "legacy/foto/old002.jpg",
+        "caption": "???"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/old003.jpg",
+        "src": "legacy/foto/old003sm.jpg",
+        "full": "legacy/foto/old003.jpg",
+        "caption": "???"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/old004.jpg",
+        "src": "legacy/foto/old004sm.jpg",
+        "full": "legacy/foto/old004.jpg",
+        "caption": "???"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/old015.jpg",
+        "src": "legacy/foto/old015sm.jpg",
+        "full": "legacy/foto/old015.jpg",
+        "caption": "???"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/old009.jpg",
+        "src": "legacy/foto/old009sm.jpg",
+        "full": "legacy/foto/old009.jpg",
+        "caption": "???"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/old010.jpg",
+        "src": "legacy/foto/old010sm.jpg",
+        "full": "legacy/foto/old010.jpg",
+        "caption": "???"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/old011.jpg",
+        "src": "legacy/foto/old011sm.jpg",
+        "full": "legacy/foto/old011.jpg",
+        "caption": "???"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/old012.jpg",
+        "src": "legacy/foto/old012sm.jpg",
+        "full": "legacy/foto/old012.jpg",
+        "caption": "???"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/old017.jpg",
+        "src": "legacy/foto/old017sm.jpg",
+        "full": "legacy/foto/old017.jpg",
+        "caption": "???"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/old018.jpg",
+        "src": "legacy/foto/old018sm.jpg",
+        "full": "legacy/foto/old018.jpg",
+        "caption": "???"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/old013.jpg",
+        "src": "legacy/foto/old013sm.jpg",
+        "full": "legacy/foto/old013.jpg",
+        "caption": "???"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/old022.jpg",
+        "src": "legacy/foto/old022sm.jpg",
+        "full": "legacy/foto/old022.jpg",
+        "caption": "Дмитрий Энгельсон"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/old024.jpg",
+        "src": "legacy/foto/old024sm.jpg",
+        "full": "legacy/foto/old024.jpg",
+        "caption": "???"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/old026.jpg",
+        "src": "legacy/foto/old026sm.jpg",
+        "full": "legacy/foto/old026.jpg",
+        "caption": "Всеволод Гаврилов"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/old020.jpg",
+        "src": "legacy/foto/old020sm.jpg",
+        "full": "legacy/foto/old020.jpg",
+        "caption": "???"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/old021.jpg",
+        "src": "legacy/foto/old021sm.jpg",
+        "full": "legacy/foto/old021.jpg",
+        "caption": "???"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/old025.jpg",
+        "src": "legacy/foto/old025sm.jpg",
+        "full": "legacy/foto/old025.jpg",
+        "caption": "Олег Завязкин"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/old019.jpg",
+        "src": "legacy/foto/old019sm.jpg",
+        "full": "legacy/foto/old019.jpg",
+        "caption": "Сергей Теплоухов учится галанить на Мидии, 1985 г. Тогда  галанка была обязательной дисциплиной при сдаче экзаменов на капитанов. На транце до сих пор сохранилось специальное крепление для весла."
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/old029.jpg",
+        "src": "legacy/foto/old029sm.jpg",
+        "full": "legacy/foto/old029.jpg",
+        "caption": "???"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/old034.jpg",
+        "src": "legacy/foto/old034sm.jpg",
+        "full": "legacy/foto/old034.jpg",
+        "caption": "???"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/old040.jpg",
+        "src": "legacy/foto/old040sm.jpg",
+        "full": "legacy/foto/old040.jpg",
+        "caption": "???"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/old041.jpg",
+        "src": "legacy/foto/old041sm.jpg",
+        "full": "legacy/foto/old041.jpg",
+        "caption": "???"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/old043.jpg",
+        "src": "legacy/foto/old043sm.jpg",
+        "full": "legacy/foto/old043.jpg",
+        "caption": "???"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/old050.jpg",
+        "src": "legacy/foto/old050sm.jpg",
+        "full": "legacy/foto/old050.jpg",
+        "caption": "Слева Павел Вахмянин, рядом Илья Плюхин"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/old036.jpg",
+        "src": "legacy/foto/old036sm.jpg",
+        "full": "legacy/foto/old036.jpg",
+        "caption": "Дмитрий Энгельсон"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/old056.jpg",
+        "src": "legacy/foto/old056sm.jpg",
+        "full": "legacy/foto/old056.jpg",
+        "caption": "Павел Вахмянин"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/old054.jpg",
+        "src": "legacy/foto/old054sm.jpg",
+        "full": "legacy/foto/old054.jpg",
+        "caption": "На переднем плане Владимир Ершов, за рулем Алексей Миронов"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/old042.jpg",
+        "src": "legacy/foto/old042sm.jpg",
+        "full": "legacy/foto/old042.jpg",
+        "caption": "Михаил Трекало"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/old046.jpg",
+        "src": "legacy/foto/old046sm.jpg",
+        "full": "legacy/foto/old046.jpg",
+        "caption": "Владимир Ершов"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/old047.jpg",
+        "src": "legacy/foto/old047sm.jpg",
+        "full": "legacy/foto/old047.jpg",
+        "caption": "???"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/old053.jpg",
+        "src": "legacy/foto/old053sm.jpg",
+        "full": "legacy/foto/old053.jpg",
+        "caption": "???"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/old057.jpg",
+        "src": "legacy/foto/old057sm.jpg",
+        "full": "legacy/foto/old057.jpg",
+        "caption": "???"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/old058.jpg",
+        "src": "legacy/foto/old058sm.jpg",
+        "full": "legacy/foto/old058.jpg",
+        "caption": "???"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/old059.jpg",
+        "src": "legacy/foto/old059sm.jpg",
+        "full": "legacy/foto/old059.jpg",
+        "caption": "???"
+      },
+      {
         "type": "paragraph",
         "text": "Фотографии присланные Геннадием Рыбкиным и Мамонтовым Алексеем. Большое спасибо!",
         "parts": [
@@ -3136,6 +3642,66 @@
           }
         ],
         "anchors": []
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/old061.jpg",
+        "src": "legacy/foto/old061sm.jpg",
+        "full": "legacy/foto/old061.jpg",
+        "caption": "Хортица под родным спинакером, 1982 г."
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/old064.jpg",
+        "src": "legacy/foto/old064sm.jpg",
+        "full": "legacy/foto/old064.jpg",
+        "caption": "Хортица под родным спинакером, 1982 г."
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/old063.jpg",
+        "src": "legacy/foto/old063sm.jpg",
+        "full": "legacy/foto/old063.jpg",
+        "caption": "Битва с фалами. Первый год козерожества Михаила Юрьевича. Видимо была другая мода на бороды :-) На заднем плане недавно пошитый оранжевый грот."
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/old066.jpg",
+        "src": "legacy/foto/old066sm.jpg",
+        "full": "legacy/foto/old066.jpg",
+        "caption": "На переднем плане Мамонтов Алексей, следующий Михаил Трекало."
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/old060.jpg",
+        "src": "legacy/foto/old060sm.jpg",
+        "full": "legacy/foto/old060.jpg",
+        "caption": "Курс на Виргины. Юный Гена Рыбкин, лучший рулевой 1982 года :-)"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/old062.jpg",
+        "src": "legacy/foto/old062sm.jpg",
+        "full": "legacy/foto/old062.jpg",
+        "caption": "1982 г. У бизани Гена Рыбкин и Теплоухов Сергей, справа Елена Коваленко и Маша ?, за рулем Юра ?, слева от него у бизани Мамонтов Алексей. Крайний слева в красной шапочке - чех Йозеф Хованец, студент корабелки."
       }
     ],
     "images": [
@@ -3856,6 +4422,126 @@
         "anchors": []
       },
       {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2010001.jpg",
+        "src": "legacy/foto/2010001sm.jpg",
+        "full": "legacy/foto/2010001.jpg",
+        "caption": "Снятие необрастайки"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2010002.jpg",
+        "src": "legacy/foto/2010002sm.jpg",
+        "full": "legacy/foto/2010002.jpg",
+        "caption": "Потный Женя. На самом деле это он лежит в ахтерпике."
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2010003.jpg",
+        "src": "legacy/foto/2010003sm.jpg",
+        "full": "legacy/foto/2010003.jpg",
+        "caption": "Хортица на санях"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2010004.jpg",
+        "src": "legacy/foto/2010004sm.jpg",
+        "full": "legacy/foto/2010004.jpg",
+        "caption": "Винт и новая необрастайка"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2010005.jpg",
+        "src": "legacy/foto/2010005sm.jpg",
+        "full": "legacy/foto/2010005.jpg",
+        "caption": "Мачта уходит в небо"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2010006.jpg",
+        "src": "legacy/foto/2010006sm.jpg",
+        "full": "legacy/foto/2010006.jpg",
+        "caption": "Мачта уходит в небо"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2010007.jpg",
+        "src": "legacy/foto/2010007sm.jpg",
+        "full": "legacy/foto/2010007.jpg",
+        "caption": "Земля, прощай! В добрый путь!"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2010008.jpg",
+        "src": "legacy/foto/2010008sm.jpg",
+        "full": "legacy/foto/2010008.jpg",
+        "caption": "Приводнение"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2010011.jpg",
+        "src": "legacy/foto/2010011sm.jpg",
+        "full": "legacy/foto/2010011.jpg",
+        "caption": "Грот мачта"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2010009.jpg",
+        "src": "legacy/foto/2010009sm.jpg",
+        "full": "legacy/foto/2010009.jpg",
+        "caption": "Грот мачта"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2010010.jpg",
+        "src": "legacy/foto/2010010sm.jpg",
+        "full": "legacy/foto/2010010.jpg",
+        "caption": "Пасадобль"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2010012.jpg",
+        "src": "legacy/foto/2010012sm.jpg",
+        "full": "legacy/foto/2010012.jpg",
+        "caption": "Есть!"
+      },
+      {
         "type": "paragraph",
         "text": "Часть II. Поход.",
         "parts": [
@@ -3911,6 +4597,46 @@
         "anchors": []
       },
       {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2010013.jpg",
+        "src": "legacy/foto/2010013sm.jpg",
+        "full": "legacy/foto/2010013.jpg",
+        "caption": "Хельсинки"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2010014.jpg",
+        "src": "legacy/foto/2010014sm.jpg",
+        "full": "legacy/foto/2010014.jpg",
+        "caption": "Хельсинки"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2010015.jpg",
+        "src": "legacy/foto/2010015sm.jpg",
+        "full": "legacy/foto/2010015.jpg",
+        "caption": "Хельсинки"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2010016.jpg",
+        "src": "legacy/foto/2010016sm.jpg",
+        "full": "legacy/foto/2010016.jpg",
+        "caption": "Хельсинки"
+      },
+      {
         "type": "paragraph",
         "text": "Финские шхеры.",
         "parts": [
@@ -3920,6 +4646,76 @@
           }
         ],
         "anchors": []
+      },
+      {
+        "type": "image",
+        "alt": "яхта Хортица",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2010017.jpg",
+        "src": "legacy/foto/2010017sm.jpg",
+        "full": "legacy/foto/2010017.jpg",
+        "caption": "Финские шхеры"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2010018.jpg",
+        "src": "legacy/foto/2010018sm.jpg",
+        "full": "legacy/foto/2010018.jpg",
+        "caption": "Финские шхеры"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2010019.jpg",
+        "src": "legacy/foto/2010019sm.jpg",
+        "full": "legacy/foto/2010019.jpg",
+        "caption": "Ужин у людоеда"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2010020.jpg",
+        "src": "legacy/foto/2010020sm.jpg",
+        "full": "legacy/foto/2010020.jpg",
+        "caption": "Финские шхеры"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2010021.jpg",
+        "src": "legacy/foto/2010021sm.jpg",
+        "full": "legacy/foto/2010021.jpg",
+        "caption": "Финские шхеры"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2010022.jpg",
+        "src": "legacy/foto/2010022sm.jpg",
+        "full": "legacy/foto/2010022.jpg",
+        "caption": "Новообращенный рыбак"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2010023.jpg",
+        "src": "legacy/foto/2010023sm.jpg",
+        "full": "legacy/foto/2010023.jpg",
+        "caption": "Местный окунь"
       },
       {
         "type": "paragraph",
@@ -3933,6 +4729,36 @@
         "anchors": []
       },
       {
+        "type": "image",
+        "alt": "яхта Хортица",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2010024.jpg",
+        "src": "legacy/foto/2010024sm.jpg",
+        "full": "legacy/foto/2010024.jpg",
+        "caption": "Здания старой фабрики"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2010025.jpg",
+        "src": "legacy/foto/2010025sm.jpg",
+        "full": "legacy/foto/2010025.jpg",
+        "caption": "Музей фабрики"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2010026.jpg",
+        "src": "legacy/foto/2010026sm.jpg",
+        "full": "legacy/foto/2010026.jpg",
+        "caption": "Музей фабрики"
+      },
+      {
         "type": "paragraph",
         "text": "Жизнь на борту.",
         "parts": [
@@ -3942,6 +4768,86 @@
           }
         ],
         "anchors": []
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2010027.jpg",
+        "src": "legacy/foto/2010027sm.jpg",
+        "full": "legacy/foto/2010027.jpg",
+        "caption": "Жизнь на борту"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2010028.jpg",
+        "src": "legacy/foto/2010028sm.jpg",
+        "full": "legacy/foto/2010028.jpg",
+        "caption": "Жизнь на борту"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2010029.jpg",
+        "src": "legacy/foto/2010029sm.jpg",
+        "full": "legacy/foto/2010029.jpg",
+        "caption": "Жизнь на борту"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2010030.jpg",
+        "src": "legacy/foto/2010030sm.jpg",
+        "full": "legacy/foto/2010030.jpg",
+        "caption": "Жизнь на борту"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2010031.jpg",
+        "src": "legacy/foto/2010031sm.jpg",
+        "full": "legacy/foto/2010031.jpg",
+        "caption": "Жизнь на борту"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2010032.jpg",
+        "src": "legacy/foto/2010032sm.jpg",
+        "full": "legacy/foto/2010032.jpg",
+        "caption": "Жизнь на борту"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2010033.jpg",
+        "src": "legacy/foto/2010033sm.jpg",
+        "full": "legacy/foto/2010033.jpg",
+        "caption": "Жизнь на борту"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2010034.jpg",
+        "src": "legacy/foto/2010034sm.jpg",
+        "full": "legacy/foto/2010034.jpg",
+        "caption": "Жизнь на борту"
       },
       {
         "type": "paragraph",
@@ -3955,6 +4861,86 @@
         "anchors": []
       },
       {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2010035.jpg",
+        "src": "legacy/foto/2010035sm.jpg",
+        "full": "legacy/foto/2010035.jpg",
+        "caption": "Ханко"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2010036.jpg",
+        "src": "legacy/foto/2010036sm.jpg",
+        "full": "legacy/foto/2010036.jpg",
+        "caption": "Ханко"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2010037.jpg",
+        "src": "legacy/foto/2010037sm.jpg",
+        "full": "legacy/foto/2010037.jpg",
+        "caption": "Ханко"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2010038.jpg",
+        "src": "legacy/foto/2010038sm.jpg",
+        "full": "legacy/foto/2010038.jpg",
+        "caption": "Работайте лучше, грешники, Господь видит вас!"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2010039.jpg",
+        "src": "legacy/foto/2010039sm.jpg",
+        "full": "legacy/foto/2010039.jpg",
+        "caption": "Хороший бакштаг"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2010040.jpg",
+        "src": "legacy/foto/2010040sm.jpg",
+        "full": "legacy/foto/2010040.jpg",
+        "caption": "Хороший бакштаг"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2010041.jpg",
+        "src": "legacy/foto/2010041sm.jpg",
+        "full": "legacy/foto/2010041.jpg",
+        "caption": "Солнце и ветер не всегда в радость"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2010042.jpg",
+        "src": "legacy/foto/2010042sm.jpg",
+        "full": "legacy/foto/2010042.jpg",
+        "caption": "Шкот"
+      },
+      {
         "type": "paragraph",
         "text": "Хельсинки. Свеаборг.",
         "parts": [
@@ -3964,6 +4950,116 @@
           }
         ],
         "anchors": []
+      },
+      {
+        "type": "image",
+        "alt": "яхта Хортица",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2010043.jpg",
+        "src": "legacy/foto/2010043sm.jpg",
+        "full": "legacy/foto/2010043.jpg",
+        "caption": "Проходим Свеаборг"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2010044.jpg",
+        "src": "legacy/foto/2010044sm.jpg",
+        "full": "legacy/foto/2010044.jpg",
+        "caption": "Силья Лайн"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2010045.jpg",
+        "src": "legacy/foto/2010045sm.jpg",
+        "full": "legacy/foto/2010045.jpg",
+        "caption": "Викинг"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2010046.jpg",
+        "src": "legacy/foto/2010046sm.jpg",
+        "full": "legacy/foto/2010046.jpg",
+        "caption": "Дождь"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2010047.jpg",
+        "src": "legacy/foto/2010047sm.jpg",
+        "full": "legacy/foto/2010047.jpg",
+        "caption": "Дождь"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2010048.jpg",
+        "src": "legacy/foto/2010048sm.jpg",
+        "full": "legacy/foto/2010048.jpg",
+        "caption": "Дождь"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2010049.jpg",
+        "src": "legacy/foto/2010049sm.jpg",
+        "full": "legacy/foto/2010049.jpg",
+        "caption": "А кто не хочет мокнуть, тот моет камбуз"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2010050.jpg",
+        "src": "legacy/foto/2010050sm.jpg",
+        "full": "legacy/foto/2010050.jpg",
+        "caption": "Капитан"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2010051.jpg",
+        "src": "legacy/foto/2010051sm.jpg",
+        "full": "legacy/foto/2010051.jpg",
+        "caption": "На подходе к Котке"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2010052.jpg",
+        "src": "legacy/foto/2010052sm.jpg",
+        "full": "legacy/foto/2010052.jpg",
+        "caption": "Рукотворный водопад"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2010053.jpg",
+        "src": "legacy/foto/2010053sm.jpg",
+        "full": "legacy/foto/2010053.jpg",
+        "caption": "Котка"
       },
       {
         "type": "paragraph",
@@ -3977,6 +5073,36 @@
         "anchors": []
       },
       {
+        "type": "image",
+        "alt": "яхта Хортица",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2010054.jpg",
+        "src": "legacy/foto/2010054sm.jpg",
+        "full": "legacy/foto/2010054.jpg",
+        "caption": "Гавань Котки"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2010055.jpg",
+        "src": "legacy/foto/2010055sm.jpg",
+        "full": "legacy/foto/2010055.jpg",
+        "caption": "Гавань Котки"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2010056.jpg",
+        "src": "legacy/foto/2010056sm.jpg",
+        "full": "legacy/foto/2010056.jpg",
+        "caption": "Гавань Котки"
+      },
+      {
         "type": "paragraph",
         "text": "На пути домой.",
         "parts": [
@@ -3986,6 +5112,36 @@
           }
         ],
         "anchors": []
+      },
+      {
+        "type": "image",
+        "alt": "яхта Хортица",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2010057.jpg",
+        "src": "legacy/foto/2010057sm.jpg",
+        "full": "legacy/foto/2010057.jpg",
+        "caption": "На подходе к Сантио"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2010058.jpg",
+        "src": "legacy/foto/2010058sm.jpg",
+        "full": "legacy/foto/2010058.jpg",
+        "caption": "Экипаж"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2010059.jpg",
+        "src": "legacy/foto/2010059sm.jpg",
+        "full": "legacy/foto/2010059.jpg",
+        "caption": "На горизонте родной город"
       },
       {
         "type": "paragraph",
@@ -4791,6 +5947,36 @@
         "anchors": []
       },
       {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2009001.jpg",
+        "src": "legacy/foto/2009001sm.jpg",
+        "full": "legacy/foto/2009001.jpg",
+        "caption": "Маяк Толбухин"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2009002.jpg",
+        "src": "legacy/foto/2009002sm.jpg",
+        "full": "legacy/foto/2009002.jpg",
+        "caption": "Подходим к Гогланду"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2009003.jpg",
+        "src": "legacy/foto/2009003sm.jpg",
+        "full": "legacy/foto/2009003.jpg",
+        "caption": "Вахтенный начальник"
+      },
+      {
         "type": "paragraph",
         "text": "Старт одного из этапов Tall Ship Races.",
         "parts": [
@@ -4800,6 +5986,126 @@
           }
         ],
         "anchors": []
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2009004.jpg",
+        "src": "legacy/foto/2009004sm.jpg",
+        "full": "legacy/foto/2009004.jpg",
+        "caption": "Tall Ship Races"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2009005.jpg",
+        "src": "legacy/foto/2009005sm.jpg",
+        "full": "legacy/foto/2009005.jpg",
+        "caption": "Tall Ship Races"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2009006.jpg",
+        "src": "legacy/foto/2009006sm.jpg",
+        "full": "legacy/foto/2009006.jpg",
+        "caption": "Tall Ship Races"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2009007.jpg",
+        "src": "legacy/foto/2009007sm.jpg",
+        "full": "legacy/foto/2009007.jpg",
+        "caption": "Tall Ship Races"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2009008.jpg",
+        "src": "legacy/foto/2009008sm.jpg",
+        "full": "legacy/foto/2009008.jpg",
+        "caption": "Tall Ship Races"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2009009.jpg",
+        "src": "legacy/foto/2009009sm.jpg",
+        "full": "legacy/foto/2009009.jpg",
+        "caption": "Tall Ship Races"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2009010.jpg",
+        "src": "legacy/foto/2009010sm.jpg",
+        "full": "legacy/foto/2009010.jpg",
+        "caption": "Tall Ship Races"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2009012.jpg",
+        "src": "legacy/foto/2009012sm.jpg",
+        "full": "legacy/foto/2009012.jpg",
+        "caption": "Tall Ship Races"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2009011.jpg",
+        "src": "legacy/foto/2009011sm.jpg",
+        "full": "legacy/foto/2009011.jpg",
+        "caption": "Tall Ship Races"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2009013.jpg",
+        "src": "legacy/foto/2009013sm.jpg",
+        "full": "legacy/foto/2009013.jpg",
+        "caption": "Tall Ship Races"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2009014.jpg",
+        "src": "legacy/foto/2009014sm.jpg",
+        "full": "legacy/foto/2009014.jpg",
+        "caption": "Tall Ship Races"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2009015.jpg",
+        "src": "legacy/foto/2009015sm.jpg",
+        "full": "legacy/foto/2009015.jpg",
+        "caption": "Tall Ship Races"
       },
       {
         "type": "paragraph",
@@ -4813,6 +6119,36 @@
         "anchors": []
       },
       {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2009016.jpg",
+        "src": "legacy/foto/2009016sm.jpg",
+        "full": "legacy/foto/2009016.jpg",
+        "caption": "Висби"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2009017.jpg",
+        "src": "legacy/foto/2009017sm.jpg",
+        "full": "legacy/foto/2009017.jpg",
+        "caption": "Висби"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2009018.jpg",
+        "src": "legacy/foto/2009018sm.jpg",
+        "full": "legacy/foto/2009018.jpg",
+        "caption": "Висби"
+      },
+      {
         "type": "paragraph",
         "text": "Кальмар.",
         "parts": [
@@ -4822,6 +6158,36 @@
           }
         ],
         "anchors": []
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2009019.jpg",
+        "src": "legacy/foto/2009019sm.jpg",
+        "full": "legacy/foto/2009019.jpg",
+        "caption": "Впереди мост на остров Эланд"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2009020.jpg",
+        "src": "legacy/foto/2009020sm.jpg",
+        "full": "legacy/foto/2009020.jpg",
+        "caption": "Кальмарский замок"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2009021.jpg",
+        "src": "legacy/foto/2009021sm.jpg",
+        "full": "legacy/foto/2009021.jpg",
+        "caption": "Кальмарский замок"
       },
       {
         "type": "paragraph",
@@ -4835,6 +6201,36 @@
         "anchors": []
       },
       {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2009022.jpg",
+        "src": "legacy/foto/2009022sm.jpg",
+        "full": "legacy/foto/2009022.jpg",
+        "caption": "Карлскруна. Морской музей"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2009023.jpg",
+        "src": "legacy/foto/2009023sm.jpg",
+        "full": "legacy/foto/2009023.jpg",
+        "caption": "Карлскруна. Морской музей"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2009024.jpg",
+        "src": "legacy/foto/2009024sm.jpg",
+        "full": "legacy/foto/2009024.jpg",
+        "caption": "Карлскруна. Морской музей"
+      },
+      {
         "type": "paragraph",
         "text": "Росток, город фестиваля Hansa Sail 2009.",
         "parts": [
@@ -4844,6 +6240,126 @@
           }
         ],
         "anchors": []
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2009025.jpg",
+        "src": "legacy/foto/2009025sm.jpg",
+        "full": "legacy/foto/2009025.jpg",
+        "caption": "Hansa Sail. Набережная Ростока."
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2009026.jpg",
+        "src": "legacy/foto/2009026sm.jpg",
+        "full": "legacy/foto/2009026.jpg",
+        "caption": "Hansa Sail. Набережная Ростока."
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2009027.jpg",
+        "src": "legacy/foto/2009027sm.jpg",
+        "full": "legacy/foto/2009027.jpg",
+        "caption": "Hansa Sail. Набережная Ростока."
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2009028.jpg",
+        "src": "legacy/foto/2009028sm.jpg",
+        "full": "legacy/foto/2009028.jpg",
+        "caption": "Hansa Sail. Набережная Ростока."
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2009029.jpg",
+        "src": "legacy/foto/2009029sm.jpg",
+        "full": "legacy/foto/2009029.jpg",
+        "caption": "Hansa Sail. Набережная Ростока."
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2009030.jpg",
+        "src": "legacy/foto/2009030sm.jpg",
+        "full": "legacy/foto/2009030.jpg",
+        "caption": "Hansa Sail. Набережная Ростока."
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2009031.jpg",
+        "src": "legacy/foto/2009031sm.jpg",
+        "full": "legacy/foto/2009031.jpg",
+        "caption": "Hansa Sail. Ежедневный парад в реке Варда."
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2009032.jpg",
+        "src": "legacy/foto/2009032sm.jpg",
+        "full": "legacy/foto/2009032.jpg",
+        "caption": "Hansa Sail. Ежедневный парад в реке Варда."
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2009033.jpg",
+        "src": "legacy/foto/2009033sm.jpg",
+        "full": "legacy/foto/2009033.jpg",
+        "caption": "Hansa Sail. Ежедневный парад в реке Варда."
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2009034.jpg",
+        "src": "legacy/foto/2009034sm.jpg",
+        "full": "legacy/foto/2009034.jpg",
+        "caption": "Hansa Sail. Устье реки Варда, курорт Вардемюнде. Участники фестиваля выходят в море."
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2009035.jpg",
+        "src": "legacy/foto/2009035sm.jpg",
+        "full": "legacy/foto/2009035.jpg",
+        "caption": "Hansa Sail. Устье реки Варда, курорт Вардемюнде. Участники фестиваля выходят в море."
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2009036.jpg",
+        "src": "legacy/foto/2009036sm.jpg",
+        "full": "legacy/foto/2009036.jpg",
+        "caption": "Hansa Sail. Устье реки Варда, курорт Вардемюнде. Участники фестиваля выходят в море."
       },
       {
         "type": "paragraph",
@@ -4857,6 +6373,76 @@
         "anchors": []
       },
       {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2009040.jpg",
+        "src": "legacy/foto/2009040sm.jpg",
+        "full": "legacy/foto/2009040.jpg",
+        "caption": "Любек. Столица Ганзейского Союза."
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2009041.jpg",
+        "src": "legacy/foto/2009041sm.jpg",
+        "full": "legacy/foto/2009041.jpg",
+        "caption": "Любек. Столица Ганзейского Союза."
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2009042.jpg",
+        "src": "legacy/foto/2009042sm.jpg",
+        "full": "legacy/foto/2009042.jpg",
+        "caption": "Любек. Столица Ганзейского Союза."
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2009043.jpg",
+        "src": "legacy/foto/2009043sm.jpg",
+        "full": "legacy/foto/2009043.jpg",
+        "caption": "Любек. Столица Ганзейского Союза."
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2009037.jpg",
+        "src": "legacy/foto/2009037sm.jpg",
+        "full": "legacy/foto/2009037.jpg",
+        "caption": "Любек. Столица Ганзейского Союза."
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2009038.jpg",
+        "src": "legacy/foto/2009038sm.jpg",
+        "full": "legacy/foto/2009038.jpg",
+        "caption": "Любек. Столица Ганзейского Союза."
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2009039.jpg",
+        "src": "legacy/foto/2009039sm.jpg",
+        "full": "legacy/foto/2009039.jpg",
+        "caption": "Любек. Магазин марципанов."
+      },
+      {
         "type": "paragraph",
         "text": "Снова Карлскруна.",
         "parts": [
@@ -4866,6 +6452,36 @@
           }
         ],
         "anchors": []
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2009044.jpg",
+        "src": "legacy/foto/2009044sm.jpg",
+        "full": "legacy/foto/2009044.jpg",
+        "caption": "Карлскруна. Историческая зарисовка."
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2009045.jpg",
+        "src": "legacy/foto/2009045sm.jpg",
+        "full": "legacy/foto/2009045.jpg",
+        "caption": "Карлскруна. После дождя."
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2009046.jpg",
+        "src": "legacy/foto/2009046sm.jpg",
+        "full": "legacy/foto/2009046.jpg",
+        "caption": "Карлскруна. Гордость шведского флота - корвет класса 'Висби'."
       },
       {
         "type": "paragraph",
@@ -4879,6 +6495,36 @@
         "anchors": []
       },
       {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2009047.jpg",
+        "src": "legacy/foto/2009047sm.jpg",
+        "full": "legacy/foto/2009047.jpg",
+        "caption": "Бакштаг. 9 узлов."
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2009048.jpg",
+        "src": "legacy/foto/2009048sm.jpg",
+        "full": "legacy/foto/2009048.jpg",
+        "caption": "Бакштаг. 9 узлов."
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2009049.jpg",
+        "src": "legacy/foto/2009049sm.jpg",
+        "full": "legacy/foto/2009049.jpg",
+        "caption": "Бакштаг. 9 узлов."
+      },
+      {
         "type": "paragraph",
         "text": "Родные воды.",
         "parts": [
@@ -4888,6 +6534,46 @@
           }
         ],
         "anchors": []
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2009050.jpg",
+        "src": "legacy/foto/2009050sm.jpg",
+        "full": "legacy/foto/2009050.jpg",
+        "caption": "Родные воды."
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2009051.jpg",
+        "src": "legacy/foto/2009051sm.jpg",
+        "full": "legacy/foto/2009051.jpg",
+        "caption": "Родные воды."
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2009052.jpg",
+        "src": "legacy/foto/2009052sm.jpg",
+        "full": "legacy/foto/2009052.jpg",
+        "caption": "Родные воды."
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2009053.jpg",
+        "src": "legacy/foto/2009053sm.jpg",
+        "full": "legacy/foto/2009053.jpg",
+        "caption": "Родные воды."
       },
       {
         "type": "paragraph",
@@ -5737,6 +7423,36 @@
         "anchors": []
       },
       {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2007001.jpg",
+        "src": "legacy/foto/2007001sm.jpg",
+        "full": "legacy/foto/2007001.jpg",
+        "caption": "Вид Котки с высоты обзорной башни"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2007002.jpg",
+        "src": "legacy/foto/2007002sm.jpg",
+        "full": "legacy/foto/2007002.jpg",
+        "caption": "Вид Котки с высоты обзорной башни"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2007003.jpg",
+        "src": "legacy/foto/2007003sm.jpg",
+        "full": "legacy/foto/2007003.jpg",
+        "caption": "Вид Котки с высоты обзорной башни"
+      },
+      {
         "type": "paragraph",
         "text": "29 июля.",
         "parts": [
@@ -5779,6 +7495,36 @@
           }
         ],
         "anchors": []
+      },
+      {
+        "type": "image",
+        "alt": "яхта Хортица",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2007007.jpg",
+        "src": "legacy/foto/2007007sm.jpg",
+        "full": "legacy/foto/2007007.jpg",
+        "caption": "Утро на о. Лонгхольмен"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2007008.jpg",
+        "src": "legacy/foto/2007008sm.jpg",
+        "full": "legacy/foto/2007008.jpg",
+        "caption": "На пути в Хельсинки"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2007009.jpg",
+        "src": "legacy/foto/2007009sm.jpg",
+        "full": "legacy/foto/2007009.jpg",
+        "caption": "На пути в Хельсинки"
       },
       {
         "type": "paragraph",
@@ -5869,6 +7615,46 @@
         "anchors": []
       },
       {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2007010.jpg",
+        "src": "legacy/foto/2007010sm.jpg",
+        "full": "legacy/foto/2007010.jpg",
+        "caption": ""
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2007011.jpg",
+        "src": "legacy/foto/2007011sm.jpg",
+        "full": "legacy/foto/2007011.jpg",
+        "caption": ""
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2007012.jpg",
+        "src": "legacy/foto/2007012sm.jpg",
+        "full": "legacy/foto/2007012.jpg",
+        "caption": ""
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2007013.jpg",
+        "src": "legacy/foto/2007013sm.jpg",
+        "full": "legacy/foto/2007013.jpg",
+        "caption": ""
+      },
+      {
         "type": "paragraph",
         "text": "2 августа.",
         "parts": [
@@ -5924,6 +7710,36 @@
         "anchors": []
       },
       {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2007014.jpg",
+        "src": "legacy/foto/2007014sm.jpg",
+        "full": "legacy/foto/2007014.jpg",
+        "caption": "Перелетные гуси"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2007015.jpg",
+        "src": "legacy/foto/2007015sm.jpg",
+        "full": "legacy/foto/2007015.jpg",
+        "caption": "Стая плотвы в гавани"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2007016.jpg",
+        "src": "legacy/foto/2007016sm.jpg",
+        "full": "legacy/foto/2007016.jpg",
+        "caption": "Стая плотвы в гавани"
+      },
+      {
         "type": "paragraph",
         "text": "3, 4 августа.",
         "parts": [
@@ -5957,6 +7773,36 @@
         "anchors": []
       },
       {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2007017.jpg",
+        "src": "legacy/foto/2007017sm.jpg",
+        "full": "legacy/foto/2007017.jpg",
+        "caption": "Скальные коровы"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2007018.jpg",
+        "src": "legacy/foto/2007018sm.jpg",
+        "full": "legacy/foto/2007018.jpg",
+        "caption": "Шведская марина"
+      },
+      {
+        "type": "image",
+        "alt": "яхта Хортица",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2007019.jpg",
+        "src": "legacy/foto/2007019sm.jpg",
+        "full": "legacy/foto/2007019.jpg",
+        "caption": "Утренний туман"
+      },
+      {
         "type": "paragraph",
         "text": "6 августа.",
         "parts": [
@@ -5988,6 +7834,46 @@
           }
         ],
         "anchors": []
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2007020.jpg",
+        "src": "legacy/foto/2007020sm.jpg",
+        "full": "legacy/foto/2007020.jpg",
+        "caption": "Стокгольм"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2007021.jpg",
+        "src": "legacy/foto/2007021sm.jpg",
+        "full": "legacy/foto/2007021.jpg",
+        "caption": "Стокгольм"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2007022.jpg",
+        "src": "legacy/foto/2007022sm.jpg",
+        "full": "legacy/foto/2007022.jpg",
+        "caption": "Стокгольм"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2007023.jpg",
+        "src": "legacy/foto/2007023sm.jpg",
+        "full": "legacy/foto/2007023.jpg",
+        "caption": "Стокгольм"
       },
       {
         "type": "paragraph",
@@ -6056,6 +7942,36 @@
         "anchors": []
       },
       {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2007024.jpg",
+        "src": "legacy/foto/2007024sm.jpg",
+        "full": "legacy/foto/2007024.jpg",
+        "caption": "Паром среди скал"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2007025.jpg",
+        "src": "legacy/foto/2007025sm.jpg",
+        "full": "legacy/foto/2007025.jpg",
+        "caption": "Стокгольмские шхеры"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2007026.jpg",
+        "src": "legacy/foto/2007026sm.jpg",
+        "full": "legacy/foto/2007026.jpg",
+        "caption": "Шведский загородный дом"
+      },
+      {
         "type": "paragraph",
         "text": "С каждой минутой Хортица уходила все дальше от открытого моря во внутренние воды Швеции. Привычным стало плавание в узости, высокие скалистые берега в сотне метров по сторонам, отсутствие волнения и качки.",
         "parts": [
@@ -6078,6 +7994,36 @@
         "anchors": []
       },
       {
+        "type": "image",
+        "alt": "яхта Хортица",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2007027.jpg",
+        "src": "legacy/foto/2007027sm.jpg",
+        "full": "legacy/foto/2007027.jpg",
+        "caption": "Путь к гавани Мэм"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2007028.jpg",
+        "src": "legacy/foto/2007028sm.jpg",
+        "full": "legacy/foto/2007028.jpg",
+        "caption": "Путь к гавани Мэм"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2007029.jpg",
+        "src": "legacy/foto/2007029sm.jpg",
+        "full": "legacy/foto/2007029.jpg",
+        "caption": "Путь к гавани Мэм"
+      },
+      {
         "type": "paragraph",
         "text": "У первого шлюза Гетаканала в гавани Мэм яхта оказалась в 00:25, оставалось ошвартоваться у набережной, и поделив ночные вахты ждать утра.",
         "parts": [
@@ -6098,6 +8044,46 @@
           }
         ],
         "anchors": []
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2007030.jpg",
+        "src": "legacy/foto/2007030sm.jpg",
+        "full": "legacy/foto/2007030.jpg",
+        "caption": "Разграбление города"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2007031.jpg",
+        "src": "legacy/foto/2007031sm.jpg",
+        "full": "legacy/foto/2007031.jpg",
+        "caption": "Первый шлюз"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2007032.jpg",
+        "src": "legacy/foto/2007032sm.jpg",
+        "full": "legacy/foto/2007032.jpg",
+        "caption": "Первый шлюз"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2007033.jpg",
+        "src": "legacy/foto/2007033sm.jpg",
+        "full": "legacy/foto/2007033.jpg",
+        "caption": "Вид канала сверху"
       },
       {
         "type": "paragraph",
@@ -6155,6 +8141,36 @@
         "anchors": []
       },
       {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2007047.jpg",
+        "src": "legacy/foto/2007047sm.jpg",
+        "full": "legacy/foto/2007047.jpg",
+        "caption": "Оператор механизмов шлюза"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2007048.jpg",
+        "src": "legacy/foto/2007048sm.jpg",
+        "full": "legacy/foto/2007048.jpg",
+        "caption": "Разводной мост"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2007049.jpg",
+        "src": "legacy/foto/2007049sm.jpg",
+        "full": "legacy/foto/2007049.jpg",
+        "caption": "Хортица в Гетаканале"
+      },
+      {
         "type": "paragraph",
         "text": "Опрераторами на шлюзах работает в основном молодежь, похоже что студенты и студентки. Операторы имеют форменную одежду. Как правило это желтая футболка, джинсы или шорты и обязательно спасательный жилет. Для координации работы, молодые люди оснащены рациями. Естественно, что канал пересекает множество автомобильных дорог. Мосты имеют различную конструкцию, есть разводные и поворачивающиеся. Открывается большинство из них с удаленного центрального поста при подходе судна, для чего установлены видеокамеры. При подходе к мосту сердце каждый раз замирало. Хоть подходили и на малых ходах, но остановиться полностью невозможно, а сворачивать некуда. Оставалось надеятся только на этого далекого парня за пультом. Надо отдать должное шведской ответственности - все работало как часы.",
         "parts": [
@@ -6177,6 +8193,36 @@
         "anchors": []
       },
       {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2007034.jpg",
+        "src": "legacy/foto/2007034sm.jpg",
+        "full": "legacy/foto/2007034.jpg",
+        "caption": "Шлюз ночью"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2007035.jpg",
+        "src": "legacy/foto/2007035sm.jpg",
+        "full": "legacy/foto/2007035.jpg",
+        "caption": "Старый поворотный рычаг"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2007036.jpg",
+        "src": "legacy/foto/2007036sm.jpg",
+        "full": "legacy/foto/2007036.jpg",
+        "caption": "Сохранившиеся деревянные ворота"
+      },
+      {
         "type": "paragraph",
         "text": "Шлюзы не работают ночью. Закрывают их около 6 часов вечером и открывают в 9 утра. В связи с этим у каждого шлюза оборудована стоянка. Имеется как минимум туалет, иногда стол и скамейки, беседка, если повезет душ.",
         "parts": [
@@ -6197,6 +8243,46 @@
           }
         ],
         "anchors": []
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2007037.jpg",
+        "src": "legacy/foto/2007037sm.jpg",
+        "full": "legacy/foto/2007037.jpg",
+        "caption": "Привычная работа"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2007038.jpg",
+        "src": "legacy/foto/2007038sm.jpg",
+        "full": "legacy/foto/2007038.jpg",
+        "caption": "Снова коровы"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2007039.jpg",
+        "src": "legacy/foto/2007039sm.jpg",
+        "full": "legacy/foto/2007039.jpg",
+        "caption": "Пикник на обочине"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2007040.jpg",
+        "src": "legacy/foto/2007040sm.jpg",
+        "full": "legacy/foto/2007040.jpg",
+        "caption": "Ночной канал"
       },
       {
         "type": "paragraph",
@@ -6230,6 +8316,36 @@
           }
         ],
         "anchors": []
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2007041.jpg",
+        "src": "legacy/foto/2007041sm.jpg",
+        "full": "legacy/foto/2007041.jpg",
+        "caption": "Каскад шлюзов. На заднем плане скульптура 'Допельганнер'"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2007042.jpg",
+        "src": "legacy/foto/2007042sm.jpg",
+        "full": "legacy/foto/2007042.jpg",
+        "caption": "Гастроли в Берге"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2007043.jpg",
+        "src": "legacy/foto/2007043sm.jpg",
+        "full": "legacy/foto/2007043.jpg",
+        "caption": "Команда"
       },
       {
         "type": "paragraph",
@@ -6296,6 +8412,36 @@
           }
         ],
         "anchors": []
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2007044.jpg",
+        "src": "legacy/foto/2007044sm.jpg",
+        "full": "legacy/foto/2007044.jpg",
+        "caption": "Море"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2007045.jpg",
+        "src": "legacy/foto/2007045sm.jpg",
+        "full": "legacy/foto/2007045.jpg",
+        "caption": "Море"
+      },
+      {
+        "type": "image",
+        "alt": "яхта Хортица",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2007046.jpg",
+        "src": "legacy/foto/2007046sm.jpg",
+        "full": "legacy/foto/2007046.jpg",
+        "caption": "Команда за работой"
       },
       {
         "type": "paragraph",
@@ -7002,6 +9148,36 @@
         "anchors": []
       },
       {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2006001.jpg",
+        "src": "legacy/foto/2006001sm.jpg",
+        "full": "legacy/foto/2006001.jpg",
+        "caption": "Вид города из яхт-клуба"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2006002.jpg",
+        "src": "legacy/foto/2006002sm.jpg",
+        "full": "legacy/foto/2006002.jpg",
+        "caption": "Проходим ворота дамбы"
+      },
+      {
+        "type": "image",
+        "alt": "яхта Хортица",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2006003.jpg",
+        "src": "legacy/foto/2006003sm.jpg",
+        "full": "legacy/foto/2006003.jpg",
+        "caption": "На пути к Сантио"
+      },
+      {
         "type": "paragraph",
         "text": "29 июля.",
         "parts": [
@@ -7057,6 +9233,36 @@
         "anchors": []
       },
       {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2006004.jpg",
+        "src": "legacy/foto/2006004sm.jpg",
+        "full": "legacy/foto/2006004.jpg",
+        "caption": "Хельсинки"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2006005.jpg",
+        "src": "legacy/foto/2006005sm.jpg",
+        "full": "legacy/foto/2006005.jpg",
+        "caption": "Хельсинки"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2006006.jpg",
+        "src": "legacy/foto/2006006sm.jpg",
+        "full": "legacy/foto/2006006.jpg",
+        "caption": "Городской яхт-клуб"
+      },
+      {
         "type": "paragraph",
         "text": "1 августа.",
         "parts": [
@@ -7088,6 +9294,46 @@
           }
         ],
         "anchors": []
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2006007.jpg",
+        "src": "legacy/foto/2006007sm.jpg",
+        "full": "legacy/foto/2006007.jpg",
+        "caption": "Дополнительный парус"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2006008.jpg",
+        "src": "legacy/foto/2006008sm.jpg",
+        "full": "legacy/foto/2006008.jpg",
+        "caption": "Начинающий рулевой"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2006009.jpg",
+        "src": "legacy/foto/2006009sm.jpg",
+        "full": "legacy/foto/2006009.jpg",
+        "caption": "Вечер на о. Бюхольм"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2006010.jpg",
+        "src": "legacy/foto/2006010sm.jpg",
+        "full": "legacy/foto/2006010.jpg",
+        "caption": "Вечер на о. Бюхольм"
       },
       {
         "type": "paragraph",
@@ -7132,6 +9378,36 @@
           }
         ],
         "anchors": []
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2006011.jpg",
+        "src": "legacy/foto/2006011sm.jpg",
+        "full": "legacy/foto/2006011.jpg",
+        "caption": "Вечер в шхерах"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2006012.jpg",
+        "src": "legacy/foto/2006012sm.jpg",
+        "full": "legacy/foto/2006012.jpg",
+        "caption": "Вечер в шхерах"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2006013.jpg",
+        "src": "legacy/foto/2006013sm.jpg",
+        "full": "legacy/foto/2006013.jpg",
+        "caption": "Марина Стурмелё"
       },
       {
         "type": "paragraph",
@@ -7189,6 +9465,36 @@
         "anchors": []
       },
       {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2006014.jpg",
+        "src": "legacy/foto/2006014sm.jpg",
+        "full": "legacy/foto/2006014.jpg",
+        "caption": "Турку"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2006015.jpg",
+        "src": "legacy/foto/2006015sm.jpg",
+        "full": "legacy/foto/2006015.jpg",
+        "caption": "Турку"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2006016.jpg",
+        "src": "legacy/foto/2006016sm.jpg",
+        "full": "legacy/foto/2006016.jpg",
+        "caption": "Турку"
+      },
+      {
         "type": "paragraph",
         "text": "4 августа.",
         "parts": [
@@ -7242,6 +9548,66 @@
           }
         ],
         "anchors": []
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2006017.jpg",
+        "src": "legacy/foto/2006017sm.jpg",
+        "full": "legacy/foto/2006017.jpg",
+        "caption": "Остров Юрмо"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2006018.jpg",
+        "src": "legacy/foto/2006018sm.jpg",
+        "full": "legacy/foto/2006018.jpg",
+        "caption": "Остров Юрмо"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2006019.jpg",
+        "src": "legacy/foto/2006019sm.jpg",
+        "full": "legacy/foto/2006019.jpg",
+        "caption": "Остров Юрмо"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2006027.jpg",
+        "src": "legacy/foto/2006027sm.jpg",
+        "full": "legacy/foto/2006027.jpg",
+        "caption": "Остров Юрмо"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2006028.jpg",
+        "src": "legacy/foto/2006028sm.jpg",
+        "full": "legacy/foto/2006028.jpg",
+        "caption": "Остров Юрмо"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2006029.jpg",
+        "src": "legacy/foto/2006029sm.jpg",
+        "full": "legacy/foto/2006029.jpg",
+        "caption": "Остров Юрмо"
       },
       {
         "type": "paragraph",
@@ -7299,6 +9665,36 @@
         "anchors": []
       },
       {
+        "type": "image",
+        "alt": "яхта Хортица",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2006020.jpg",
+        "src": "legacy/foto/2006020sm.jpg",
+        "full": "legacy/foto/2006020.jpg",
+        "caption": "Хортица в шхерах"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2006021.jpg",
+        "src": "legacy/foto/2006021sm.jpg",
+        "full": "legacy/foto/2006021.jpg",
+        "caption": "Балтийские шхеры"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2006022.jpg",
+        "src": "legacy/foto/2006022sm.jpg",
+        "full": "legacy/foto/2006022.jpg",
+        "caption": "Балтийские шхеры"
+      },
+      {
         "type": "paragraph",
         "text": "Шхеры во всей красе.",
         "parts": [
@@ -7308,6 +9704,46 @@
           }
         ],
         "anchors": []
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2006023.jpg",
+        "src": "legacy/foto/2006023sm.jpg",
+        "full": "legacy/foto/2006023.jpg",
+        "caption": "Балтийские шхеры"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2006024.jpg",
+        "src": "legacy/foto/2006024sm.jpg",
+        "full": "legacy/foto/2006024.jpg",
+        "caption": "Балтийские шхеры"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2006025.jpg",
+        "src": "legacy/foto/2006025sm.jpg",
+        "full": "legacy/foto/2006025.jpg",
+        "caption": "Балтийские шхеры"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2006026.jpg",
+        "src": "legacy/foto/2006026sm.jpg",
+        "full": "legacy/foto/2006026.jpg",
+        "caption": "Балтийские шхеры"
       },
       {
         "type": "paragraph",
@@ -7420,6 +9856,36 @@
         "anchors": []
       },
       {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2006030.jpg",
+        "src": "legacy/foto/2006030sm.jpg",
+        "full": "legacy/foto/2006030.jpg",
+        "caption": "Стокгольм морской город"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2006031.jpg",
+        "src": "legacy/foto/2006031sm.jpg",
+        "full": "legacy/foto/2006031.jpg",
+        "caption": "Стокгольм морской город"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2006032.jpg",
+        "src": "legacy/foto/2006032sm.jpg",
+        "full": "legacy/foto/2006032.jpg",
+        "caption": "Стокгольм морской город"
+      },
+      {
         "type": "paragraph",
         "text": "Панорама города с высоты телебашни. Городская набережная. Обводный канал.",
         "parts": [
@@ -7429,6 +9895,36 @@
           }
         ],
         "anchors": []
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2006033.jpg",
+        "src": "legacy/foto/2006033sm.jpg",
+        "full": "legacy/foto/2006033.jpg",
+        "caption": "Стокгольм с высоты телебашни. Машины внизу - собрание клуба Alfa Romeo"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2006034.jpg",
+        "src": "legacy/foto/2006034sm.jpg",
+        "full": "legacy/foto/2006034.jpg",
+        "caption": "Городская набережная"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2006035.jpg",
+        "src": "legacy/foto/2006035sm.jpg",
+        "full": "legacy/foto/2006035.jpg",
+        "caption": "Обводный канал"
       },
       {
         "type": "paragraph",
@@ -7453,6 +9949,36 @@
         "anchors": []
       },
       {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2006036.jpg",
+        "src": "legacy/foto/2006036sm.jpg",
+        "full": "legacy/foto/2006036.jpg",
+        "caption": "Морской музей Стокгольма"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2006037.jpg",
+        "src": "legacy/foto/2006037sm.jpg",
+        "full": "legacy/foto/2006037.jpg",
+        "caption": "Морской музей Стокгольма"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2006038.jpg",
+        "src": "legacy/foto/2006038sm.jpg",
+        "full": "legacy/foto/2006038.jpg",
+        "caption": "Морской музей Стокгольма"
+      },
+      {
         "type": "paragraph",
         "text": "Пользуясь тем, что Хортица стояла в Стокгольме несколько дней, удалось осмотреть большую часть городских достопримечательностей. Часть команды, заранее выяснив подробности, решила посетить известный во времена викингов город Бирку. Оказалось, что до туда из центра Стокгольма регулярно ходит паром. Самый знаменитый торговый порт Скандинавии тех лет, без упоминания которого не обходится ни одна историческая книга о викингах, до наших дней не сохранился. Можно посмотреть только остров на озере Меларен, где располагалась Бирка. Здесь постоянно ведутся раскопки, и самые интересные места закрыты для посещения. Имеется небольшой музей с экспозициями из жизни людей той эпохи, их орудиями труда, оружием и украшениями. Также существует небольшая деревня, где воссоздан быт викингов, здесь можно купить выкованные вручную ножи, наконечники стрел, обереги или настоящий рог для пива.",
         "parts": [
@@ -7473,6 +9999,36 @@
           }
         ],
         "anchors": []
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2006039.jpg",
+        "src": "legacy/foto/2006039sm.jpg",
+        "full": "legacy/foto/2006039.jpg",
+        "caption": "Древняя Бирка"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2006040.jpg",
+        "src": "legacy/foto/2006040sm.jpg",
+        "full": "legacy/foto/2006040.jpg",
+        "caption": "Бирка в наши дни"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2006041.jpg",
+        "src": "legacy/foto/2006041sm.jpg",
+        "full": "legacy/foto/2006041.jpg",
+        "caption": "Бирка в наши дни"
       },
       {
         "type": "paragraph",
@@ -7563,6 +10119,46 @@
         "anchors": []
       },
       {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2006042.jpg",
+        "src": "legacy/foto/2006042sm.jpg",
+        "full": "legacy/foto/2006042.jpg",
+        "caption": "Жизнь на борту Хортицы"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2006043.jpg",
+        "src": "legacy/foto/2006043sm.jpg",
+        "full": "legacy/foto/2006043.jpg",
+        "caption": "Жизнь на борту Хортицы"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2006044.jpg",
+        "src": "legacy/foto/2006044sm.jpg",
+        "full": "legacy/foto/2006044.jpg",
+        "caption": "Жизнь на борту Хортицы"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2006045.jpg",
+        "src": "legacy/foto/2006045sm.jpg",
+        "full": "legacy/foto/2006045.jpg",
+        "caption": "Жизнь на борту Хортицы"
+      },
+      {
         "type": "paragraph",
         "text": "Тьфу! Бабы на борту, не к добру! Повелительница гусей. Пожар в небесах.",
         "parts": [
@@ -7572,6 +10168,36 @@
           }
         ],
         "anchors": []
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2006046.jpg",
+        "src": "legacy/foto/2006046sm.jpg",
+        "full": "legacy/foto/2006046.jpg",
+        "caption": "Лучшая часть команды"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2006047.jpg",
+        "src": "legacy/foto/2006047sm.jpg",
+        "full": "legacy/foto/2006047.jpg",
+        "caption": "Гусыня с острова Юрмо"
+      },
+      {
+        "type": "image",
+        "alt": "",
+        "title": "",
+        "anchors": [],
+        "href": "foto/2006048.jpg",
+        "src": "legacy/foto/2006048sm.jpg",
+        "full": "legacy/foto/2006048.jpg",
+        "caption": "Пожар в небесах"
       },
       {
         "type": "paragraph",

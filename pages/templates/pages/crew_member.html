@@ -1,0 +1,17 @@
+{% load static %}
+<article class="crew-card">
+  <div class="crew-portraits{% if member.photos|length > 1 %} crew-portraits-pair{% endif %}">
+    {% for photo in member.photos %}
+      <figure class="crew-portrait">
+        <a href="{% static photo.full %}" data-photo data-photo-group="{{ member.name }}" data-caption="{{ photo.caption }}"{% if photo.profile_key %} data-profile-key="{{ photo.profile_key }}" data-profile-base="{{ photo.profile_base }}" data-profile-variants="{% for source in photo.profile_variants %}{{ source }}{% if not forloop.last %}|{% endif %}{% endfor %}"{% endif %}>
+          <img src="{% static photo.src %}" alt="{{ member.name }}" loading="lazy">
+        </a>
+      </figure>
+    {% endfor %}
+  </div>
+  <div class="crew-card-copy"{% if member.profile_key %} data-profile-target="{{ member.profile_key }}"{% endif %}>
+    <h3>{{ member.name }}</h3>
+    <p class="crew-role">{{ member.role }}</p>
+    {% for block in member.bio %}{% include "pages/legacy_block.html" %}{% endfor %}
+  </div>
+</article>

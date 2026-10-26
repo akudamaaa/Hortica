@@ -21,12 +21,27 @@ class PublicPagesTests(TestCase):
         self.assertContains(response, "1984")
         self.assertContains(response, "2009047sm.jpg")
 
-    def test_story_gallery_uses_original_photo_and_caption(self):
+    def test_story_photo_stays_in_article_order(self):
         response = self.client.get(reverse("voyage-2006"))
+        self.assertContains(response, 'class="source-photo"')
         self.assertContains(response, "2006001sm.jpg")
         self.assertContains(response, "2006001.jpg")
         source_caption = next(image["caption"] for image in legacy_pages()["2006"]["images"] if image["caption"])
         self.assertContains(response, source_caption)
+
+    def test_crew_members_have_separate_cards_and_matching_portraits(self):
+        response = self.client.get(reverse("crew"))
+        self.assertContains(response, 'class="crew-card"')
+        self.assertContains(response, "Трекало Михаил Юрьевич")
+        self.assertContains(response, "Моисеев Денис")
+        self.assertContains(response, "/static/legacy/kaptan.jpg")
+        self.assertContains(response, "/static/legacy/ya.jpg")
+        self.assertContains(response, "/static/legacy/oldgavr.jpg")
+
+    def test_project_uses_confirmed_1960_date_without_developer_note(self):
+        response = self.client.get(reverse("project"))
+        self.assertContains(response, "в 1960 году и в том же году совершила первый поход")
+        self.assertNotContains(response, "Подтверждённая дата")
 
     def test_old_archive_alias_opens_complete_photo_archive(self):
         response = self.client.get(reverse("archive"))
@@ -77,5 +92,6 @@ class AdminAccessTests(TestCase):
 class RegistrationStubTests(TestCase):
     def test_registration_page_says_submission_is_disabled(self):
         response = self.client.get(reverse("registration"))
-        self.assertContains(response, "данные никуда не отправляются")
+        self.assertContains(response, "Приём заявок временно закрыт")
+        self.assertContains(response, "не отправляются")
         self.assertContains(response, "disabled")

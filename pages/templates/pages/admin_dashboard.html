@@ -3,15 +3,14 @@
 {% block content %}
 <section class="admin-dashboard">
   <div class="admin-heading">
-    <div><p class="eyebrow">ЗАКРЫТЫЙ РАЗДЕЛ / ДОСТУП РАЗРЕШЁН</p><h1>Кают-команда<span>.</span></h1></div>
-    <form method="post" action="{% url 'admin-logout' %}">{% csrf_token %}<button class="button button-outline" type="submit">Выйти</button></form>
+    <div><p class="pixel-label">УПРАВЛЕНИЕ САЙТОМ</p><h1>Кают-команда</h1></div>
+    <form method="post" action="{% url 'admin-logout' %}">{% csrf_token %}<button class="pixel-button" type="submit">Выйти</button></form>
   </div>
-  <p class="admin-intro">Вы вошли как <strong>{{ request.user.get_username }}</strong>. Это заглушка: управление содержанием пока не подключено.</p>
+  <p class="admin-intro">Добро пожаловать, <strong>{{ request.user.get_username }}</strong>. Выберите раздел управления.</p>
   <div class="admin-cards">
-    <article class="admin-card"><span>01</span><h2>Содержание сайта</h2><p>Здесь появится редактирование страниц после согласования модели контента.</p><b>ПОЗЖЕ</b></article>
-    <article class="admin-card"><span>02</span><h2>Форма записи</h2><p>Макет полей подготовлен. Правила обработки и хранения заявок ещё не настроены.</p><b>ПОЗЖЕ</b></article>
-    <article class="admin-card"><span>03</span><h2>Выходы яхты</h2><p>Учёт выходов и расписание будут добавлены отдельным этапом.</p><b>ПОЗЖЕ</b></article>
+    <article class="admin-card"><span>01</span><h2>Содержание сайта</h2><p>Раздел пока недоступен.</p></article>
+    <article class="admin-card"><span>02</span><h2>Форма записи</h2><p>Раздел пока недоступен.</p></article>
+    <article class="admin-card"><span>03</span><h2>Выходы яхты</h2><p>Раздел пока недоступен.</p></article>
   </div>
-  <div class="source-note">Создать двух администраторов можно вручную через команду createsuperuser в терминале. Публичной регистрации и управления пользователями на сайте нет.</div>
 </section>
 {% endblock %}

@@ -1,0 +1,20 @@
+{% load static %}
+{% for anchor in block.anchors %}<span class="named-anchor" id="{{ anchor }}"></span>{% endfor %}
+{% if block.type == "image" and block.src %}
+  <figure class="source-photo">
+    <a href="{% if block.resolved_href %}{{ block.resolved_href }}{% else %}{{ block.full }}{% endif %}" data-photo data-photo-group="{{ page.key }}" data-caption="{{ block.caption }}">
+      <img src="{{ block.src }}" alt="{% if block.alt %}{{ block.alt }}{% else %}Фото с сайта яхты «Хортица»{% endif %}" loading="lazy">
+    </a>
+    {% if block.caption %}<figcaption>{{ block.caption }}</figcaption>{% endif %}
+  </figure>
+{% elif block.type == "heading" %}
+  <h2>{{ block.text }}</h2>
+{% elif block.text %}
+  <p class="legacy-text">
+    {% if block.parts %}
+      {% for part in block.parts %}
+        {% if part.type == "link" and part.resolved_href %}<a href="{{ part.resolved_href }}"{% if part.resolved_href|slice:":4" == "http" %} rel="noopener noreferrer"{% endif %}{% if part.title %} title="{{ part.title }}"{% endif %}>{{ part.text }}</a>{% else %}{{ part.text }}{% endif %}
+      {% endfor %}
+    {% else %}{{ block.text }}{% endif %}
+  </p>
+{% endif %}

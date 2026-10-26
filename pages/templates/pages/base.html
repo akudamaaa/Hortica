@@ -14,17 +14,26 @@
   <div class="site-frame">
     <header class="site-header">
       <a class="brand" href="{% url 'home' %}" aria-label="Яхта Хортица — главная">
-        <span class="brand-mark" aria-hidden="true">Х</span>
-        <span class="brand-copy"><strong>ХОРТИЦА</strong><small>парусная яхта · Санкт-Петербург</small></span>
+        <img class="brand-logo" src="{% static 'brand/Hortica_logo1.png' %}"
+             data-logo-default="{% static 'brand/Hortica_logo1.png' %}"
+             data-logo-hover="{% static 'brand/Hortica_logo.png' %}"
+             alt="Логотип яхты «Хортица»" width="64" height="64">
+        <span class="brand-copy"><strong>ХОРТИЦА</strong><small>ПАРУСНЫЙ ЭКИПАЖ</small></span>
       </a>
-      <nav class="main-nav" aria-label="Основная навигация">
-        <a href="{% url 'project' %}">О проекте</a>
-        <a href="{% url 'history' %}">История</a>
-        <a href="{% url 'crew' %}">Экипаж</a>
-        <a href="{% url 'voyages' %}">Походы</a>
-        <a href="{% url 'coordinates' %}">Координаты</a>
-      </nav>
-      <a class="register-link" href="{% url 'registration' %}">Регистрация <span aria-hidden="true">↗</span></a>
+      <div class="header-actions">
+        <a class="register-link" href="{% url 'registration' %}">Записаться на выход</a>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-menu">
+          <span class="menu-icon" aria-hidden="true"><i></i><i></i><i></i></span>
+          <span>МЕНЮ</span>
+        </button>
+        <nav class="menu-panel" id="site-menu" aria-label="Основная навигация" hidden>
+          <a href="{% url 'project' %}"><span>01</span>О проекте</a>
+          <a href="{% url 'history' %}"><span>02</span>История</a>
+          <a href="{% url 'crew' %}"><span>03</span>Экипаж</a>
+          <a href="{% url 'voyages' %}"><span>04</span>Походы и фотоархив</a>
+          <a href="{% url 'coordinates' %}"><span>05</span>Координаты</a>
+        </nav>
+      </div>
     </header>
     <main id="main-content" tabindex="-1">
       {% block content %}{% endblock %}
@@ -36,7 +45,7 @@
         <a href="{% url 'history' %}">История</a>
         <a href="{% url 'voyages' %}">Походы</a>
       </nav>
-      <a class="footer-registration" href="{% url 'registration' %}">На борт ↗</a>
+      <a class="footer-registration" href="{% url 'registration' %}">Записаться на выход ↗</a>
     </footer>
   </div>
   <dialog class="photo-dialog" aria-label="Просмотр фотографии">

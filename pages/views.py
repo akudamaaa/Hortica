@@ -69,10 +69,19 @@ def legacy_page(request, key):
     page = dict(original)
     page["blocks"] = [dict(block) for block in original.get("blocks", [])]
     for block in page["blocks"]:
+        if block.get("type") == "image":
+            block["src"] = static(block["src"]) if block.get("src") else ""
+            block["full"] = static(block["full"]) if block.get("full") else block["src"]
+            if block.get("href"):
+                block["resolved_href"] = source_link(original, {"href": block["href"]})
         for part in block.get("parts", []):
             if part.get("type") == "link":
                 part["resolved_href"] = source_link(original, part)
-    page["images"] = [image for image in original.get("images", []) if image.get("src")]
+    page["images"] = [
+        {**image, "src_path": image["src"]}
+        for image in original.get("images", [])
+        if image.get("src")
+    ]
     if key == "crew":
         for image in page["images"]:
             if image["src"] == "legacy/ya.jpg":
@@ -89,6 +98,12 @@ def legacy_page(request, key):
             if not rotation_added and image["src"] == "legacy/foto/old001sm.jpg":
                 image["photo_cycle"] = [static(path) for path in rotating_photos]
                 rotation_added = True
+        page["crew_old_cover"] = next(
+            (image for image in page["images"] if image.get("caption") == "Фотографии тех лет"),
+            None,
+        )
+        if page["crew_old_cover"]:
+            page["crew_old_cover"]["photo_cycle"] = [static(path) for path in rotating_photos]
     page["article_groups"] = []
     for block in page["blocks"]:
         profile = block.get("profile")
@@ -96,6 +111,61 @@ def legacy_page(request, key):
             page["article_groups"][-1]["blocks"].append(block)
         else:
             page["article_groups"].append({"profile": profile, "blocks": [block]})
+    if key == "crew":
+        blocks = page["blocks"]
+        image_by_path = {image["src_path"]: image for image in page["images"]}
+
+        def member(name_index, role_index, bio_indexes, *photo_paths):
+            photos = []
+            for path in photo_paths:
+                image = image_by_path.get(path)
+                if image:
+                    photos.append(image)
+            return {
+                "name": blocks[name_index]["text"],
+                "role": blocks[role_index]["text"],
+                "bio": [blocks[index] for index in bio_indexes],
+                "photos": photos,
+                "profile_key": photos[0].get("profile_key", "") if photos else "",
+            }
+
+        page["crew_intro"] = blocks[1:6]
+        page["crew_jump_links"] = blocks[6:9]
+        page["crew_current_title"] = blocks[9]
+        page["crew_current"] = [
+            member(10, 11, [], "legacy/kaptan.jpg"),
+            member(12, 13, [], "legacy/masha.jpg"),
+            member(14, 15, [16, 17], "legacy/enot.jpg"),
+            member(18, 19, [20], "legacy/ya.jpg"),
+            member(21, 22, [23], "legacy/givi.jpg"),
+            member(24, 25, [26], "legacy/olka.jpg"),
+            member(27, 28, [29], "legacy/karas.jpg"),
+            member(30, 31, [32], "legacy/kuzmich.jpg"),
+        ]
+        page["crew_back_current"] = blocks[33]
+        page["crew_old_title"] = blocks[34]
+        page["crew_old_intro"] = blocks[35:38]
+        page["crew_old"] = [
+            member(38, 39, [], "legacy/oldgavr.jpg"),
+            member(40, 41, [], "legacy/olddilevich.jpg"),
+            member(42, 43, [], "legacy/oldtarando.jpg"),
+            member(44, 45, [], "legacy/oldvahm.jpg", "legacy/newvahm.jpg"),
+            member(46, 47, [], "legacy/oldseva.jpg", "legacy/newseva.jpg"),
+            member(48, 49, [], "legacy/oldvolk.jpg", "legacy/newvolk.jpg"),
+            member(50, 51, [], "legacy/oldmamont.jpg", "legacy/newmamont.jpg"),
+            member(52, 53, [], "legacy/oldlesha.jpg", "legacy/newlesha.jpg"),
+            member(54, 55, [], "legacy/oldplu.jpg", "legacy/newplu.jpg"),
+            member(56, 57, [], "legacy/oldrybkin.jpg", "legacy/newrybkin.jpg"),
+            member(58, 59, [], "legacy/oldengelson.jpg", "legacy/newengelson.jpg"),
+        ]
+        page["crew_back_old"] = blocks[60]
+        page["crew_young_title"] = blocks[61]
+        page["crew_young_intro"] = blocks[62:64]
+        page["crew_young"] = [
+            member(64, 65, [], "legacy/kozer1.jpg"),
+            member(66, 67, [], "legacy/kozer2.jpg"),
+        ]
+        page["crew_back_young"] = blocks[68]
     related_links = []
     for link in original.get("links", []):
         label = link.get("text") or link.get("title")
@@ -114,9 +184,6 @@ def legacy_page(request, key):
         if identity not in {(item["href"], item["label"]) for item in related_links}:
             related_links.append({"href": href, "label": label, "title": link.get("title", "")})
     page["related_links"] = related_links
-    if key == "home":
-        history = legacy_pages().get("history", {})
-        page["hero_image"] = next(iter(history.get("images", [])), None)
     if key == "track":
         enriched_routes = []
         for cells in page.get("routes", [])[1:]:
@@ -155,7 +222,6 @@ def legacy_page(request, key):
                     "source_title": source_page.get("title", ""),
                 })
         page["archive_images"] = archive_images
-    page["source_note"] = key in {"project", "history"}
     return render(request, "pages/legacy_page.html", {
         "page": page,
         "is_home": key == "home",

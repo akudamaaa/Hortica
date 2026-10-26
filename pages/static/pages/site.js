@@ -1,4 +1,53 @@
 (() => {
+  const menuButton = document.querySelector(".menu-toggle");
+  const menuPanel = document.querySelector(".menu-panel");
+  let menuCloseTimer;
+
+  const setMenuOpen = (open) => {
+    if (!menuButton || !menuPanel) return;
+    window.clearTimeout(menuCloseTimer);
+    if (open) {
+      menuPanel.hidden = false;
+      window.requestAnimationFrame(() => menuPanel.classList.add("is-open"));
+      menuButton.setAttribute("aria-expanded", "true");
+      return;
+    }
+    menuPanel.classList.remove("is-open");
+    menuButton.setAttribute("aria-expanded", "false");
+    menuCloseTimer = window.setTimeout(() => { menuPanel.hidden = true; }, 180);
+  };
+
+  if (menuButton && menuPanel) {
+    menuButton.addEventListener("click", () => {
+      setMenuOpen(menuButton.getAttribute("aria-expanded") !== "true");
+    });
+    menuPanel.querySelectorAll("a").forEach((link) => link.addEventListener("click", () => setMenuOpen(false)));
+    document.addEventListener("click", (event) => {
+      if (!event.target.closest(".header-actions")) setMenuOpen(false);
+    });
+    document.addEventListener("keydown", (event) => {
+      if (event.key === "Escape" && menuButton.getAttribute("aria-expanded") === "true") {
+        setMenuOpen(false);
+        menuButton.focus();
+      }
+    });
+  }
+
+  const brandLink = document.querySelector(".brand");
+  const brandLogo = document.querySelector(".brand-logo");
+  if (brandLink && brandLogo) {
+    const defaultLogo = brandLogo.dataset.logoDefault;
+    const hoverLogo = brandLogo.dataset.logoHover;
+    const preload = new Image();
+    preload.src = hoverLogo;
+    const showHoverLogo = () => { brandLogo.src = hoverLogo; };
+    const showDefaultLogo = () => { brandLogo.src = defaultLogo; };
+    brandLink.addEventListener("pointerenter", showHoverLogo);
+    brandLink.addEventListener("pointerleave", showDefaultLogo);
+    brandLink.addEventListener("focus", showHoverLogo);
+    brandLink.addEventListener("blur", showDefaultLogo);
+  }
+
   const dialog = document.querySelector(".photo-dialog");
 
   if (dialog && typeof dialog.showModal === "function") {

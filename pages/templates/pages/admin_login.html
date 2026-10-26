@@ -3,8 +3,8 @@
 {% block content %}
 <section class="admin-login-wrap">
   <div class="admin-login-card">
-    <p class="eyebrow">ЗАКРЫТЫЙ РАЗДЕЛ</p><h1>Вход<br><em>экипажа.</em></h1>
-    <p class="admin-intro">Панель доступна только существующим учётным записям с правами staff. Самостоятельной регистрации нет.</p>
+    <p class="pixel-label">ЗАКРЫТЫЙ РАЗДЕЛ</p><h1>Вход экипажа</h1>
+    <p class="admin-intro">Вход доступен по логину и паролю администратора. Новые учётные записи на сайте не создаются.</p>
     <form method="post" class="login-form">
       {% csrf_token %}
       {{ form.non_field_errors }}
@@ -13,9 +13,9 @@
       <label for="{{ form.password.id_for_label }}">Пароль</label>
       {{ form.password }}{{ form.password.errors }}
       {% if next %}<input type="hidden" name="next" value="{{ next }}">{% endif %}
-      <button class="button button-primary form-submit" type="submit">Войти ↗</button>
+      <button class="pixel-button pixel-button-primary form-submit" type="submit">Войти ↗</button>
     </form>
-    <a class="text-link" href="{% url 'home' %}">← Вернуться на сайт</a>
+    <a class="pixel-link" href="{% url 'home' %}">← Вернуться на сайт</a>
   </div>
 </section>
 {% endblock %}
